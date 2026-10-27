@@ -1,0 +1,36 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Secrets & Credentials
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Frontend & Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Backup & Temporary files
+*.bak
+*.tmp
+*.log
+tempCodeRunnerFile.*
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

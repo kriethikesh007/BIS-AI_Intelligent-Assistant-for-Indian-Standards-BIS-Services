@@ -1,0 +1,1123 @@
+[
+  {
+    "id": "BIS-STD-001",
+    "standard_code": "IS 14543:2016",
+    "title": "Packaged Drinking Water (Other Than Packaged Natural Mineral Water) - Specification",
+    "category": "Food and Agriculture / Water",
+    "product": "Packaged Drinking Water, bottled drinking water, mineralized water bottle",
+    "scope": "Prescribes requirements and methods of sampling and test for packaged drinking water other than packaged natural mineral water, including microbial, chemical, pesticide residue limits, and food-grade packaging materials.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Mandatory Certification under QCO",
+    "mandatory_status": "Mandatory",
+    "testing_parameters": "Microbiological safety (E. coli, coliform, yeast and mould), heavy metals (lead, cadmium, arsenic), pesticide residues, organoleptic parameters, total dissolved solids.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/14543",
+    "source_document": "IS 14543 (Third Revision) Standard Document",
+    "reference_clause": "Clause 4.1 (Physical & Chemical Requirements), Clause 5 (Hygiene & Microbial Limits), Clause 7 (Marking)",
+    "last_updated": "2024-01-15",
+    "applicable_products": [
+      "packaged drinking water",
+      "bottled water",
+      "water jars 20L",
+      "drinking water bottle"
+    ],
+    "standard_number": "IS 14543:2016",
+    "edition_or_year": "2016",
+    "product_categories": [
+      "Food and Agriculture",
+      "Water"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 14543:2016",
+    "supporting_excerpt": "Prescribes requirements and methods of sampling and test for packaged drinking water other than packaged natural mineral water, including microbial, chemical, pesticide residue limits, and food-grade ...",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2024-01-15",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Microbiological safety (E. coli, coliform, yeast and mould), heavy metals (lead, cadmium, arsenic), pesticide residues, "
+    }
+  },
+  {
+    "id": "BIS-STD-002",
+    "standard_code": "IS 10500:2012",
+    "title": "Drinking Water Specification",
+    "category": "Civil & Environmental Engineering / Water Supply",
+    "product": "Potable Water, municipal tap water, pipeline drinking water",
+    "scope": "Prescribes the requirements and the methods of sampling and test for drinking water (potable tap water) essential to assess quality and suitability for human consumption.",
+    "certification_scheme": "Voluntary Specification / Municipal Testing Standard",
+    "mandatory_status": "Voluntary / Guidance for Public Water Suppliers",
+    "testing_parameters": "Turbidity, pH, total dissolved solids, hardness, iron, chlorides, nitrates, bacteriological test.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/10500",
+    "source_document": "IS 10500 (Second Revision) Standard Document",
+    "reference_clause": "Table 1 (Organoleptic and Physical Parameters), Table 2 (General Parameters concerning substances undesirable in excessive amounts)",
+    "last_updated": "2023-11-20",
+    "applicable_products": [
+      "drinking water",
+      "tap water",
+      "municipal water supply",
+      "groundwater testing"
+    ],
+    "standard_number": "IS 10500:2012",
+    "edition_or_year": "2012",
+    "product_categories": [
+      "Civil & Environmental Engineering",
+      "Water Supply"
+    ],
+    "compliance_status": "Voluntary Certification",
+    "mandatory_status_source": "Voluntary Standardization Directive",
+    "source_title": "BIS Standards Directory - IS 10500:2012",
+    "supporting_excerpt": "Prescribes the requirements and the methods of sampling and test for drinking water (potable tap water) essential to assess quality and suitability for human consumption....",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2023-11-20",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Turbidity, pH, total dissolved solids, hardness, iron, chlorides, nitrates, bacteriological test."
+    }
+  },
+  {
+    "id": "BIS-STD-003",
+    "standard_code": "IS 4151:2020",
+    "title": "Protective Helmets for Two Wheeler Riders - Specification",
+    "category": "Mechanical Engineering / Automotive Safety",
+    "product": "Motorcycle helmets, two wheeler rider helmet, motorcycle safety gear",
+    "scope": "Covers the requirements regarding materials, construction, finish, mass and performance for protective helmets for drivers and passengers of two-wheeled motor vehicles.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Compulsory under Road Transport Ministry QCO",
+    "mandatory_status": "Mandatory",
+    "testing_parameters": "Impact absorption test, chin strap retention test, audibility test, peripheral vision test, penetration resistance test.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/4151",
+    "source_document": "IS 4151:2020 (Fourth Revision) Standard Document",
+    "reference_clause": "Clause 5 (Design and Construction), Clause 7.1 (Impact Absorption), Clause 8.2 (Retention System Test)",
+    "last_updated": "2024-03-10",
+    "applicable_products": [
+      "helmets",
+      "two wheeler helmet",
+      "bike helmet",
+      "motorcycle helmet",
+      "protective headgear"
+    ],
+    "standard_number": "IS 4151:2020",
+    "edition_or_year": "2020",
+    "product_categories": [
+      "Mechanical Engineering",
+      "Automotive Safety"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 4151:2020",
+    "supporting_excerpt": "Covers the requirements regarding materials, construction, finish, mass and performance for protective helmets for drivers and passengers of two-wheeled motor vehicles....",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2024-03-10",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Impact absorption test, chin strap retention test, audibility test, peripheral vision test, penetration resistance test."
+    }
+  },
+  {
+    "id": "BIS-STD-004",
+    "standard_code": "IS 1293:2019",
+    "title": "Plugs and Socket-Outlets for Domestic and Similar Purposes of Rated Voltage up to and Including 250 V and Rated Current up to and Including 16 A - Specification",
+    "category": "Electrotechnical / Electrical Accessories",
+    "product": "Electric plugs, sockets, multi-plugs, 6A/16A electrical sockets, power extension boards",
+    "scope": "Applies to plugs and fixed or portable socket-outlets for a.c. only, with or without earthing contact, rated voltage between 50 V and 250 V and rated current up to 16 A.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Compulsory under Electrical Wires and Accessories QCO",
+    "mandatory_status": "Mandatory",
+    "testing_parameters": "Insulation resistance, electric strength, temperature rise test, making and breaking capacity, mechanical strength, resistance to heat and fire.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/1293",
+    "source_document": "IS 1293:2019 (Fifth Revision) Specification",
+    "reference_clause": "Clause 13 (Temperature Rise), Clause 16 (Insulation Resistance & Electric Strength), Clause 19 (Making and Breaking Capacity)",
+    "last_updated": "2023-12-05",
+    "applicable_products": [
+      "electric plugs",
+      "electrical sockets",
+      "power strips",
+      "wall sockets",
+      "extension boards"
+    ],
+    "standard_number": "IS 1293:2019",
+    "edition_or_year": "2019",
+    "product_categories": [
+      "Electrotechnical",
+      "Electrical Accessories"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 1293:2019",
+    "supporting_excerpt": "Applies to plugs and fixed or portable socket-outlets for a.c. only, with or without earthing contact, rated voltage between 50 V and 250 V and rated current up to 16 A....",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2023-12-05",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Insulation resistance, electric strength, temperature rise test, making and breaking capacity, mechanical strength, resi"
+    }
+  },
+  {
+    "id": "BIS-STD-005",
+    "standard_code": "IS 16046 (Part 1 & Part 2):2018",
+    "title": "Secondary Cells and Batteries Containing Alkaline or Other Non-Acid Electrolytes - Safety Requirements for Portable Sealed Secondary Cells and for Batteries Made from Them",
+    "category": "Electronics & Information Technology / Energy Storage",
+    "product": "Lithium-ion batteries, laptop batteries, mobile phone batteries, power banks, nickel systems",
+    "scope": "Specifies requirements and tests for the safe operation of portable sealed secondary lithium and nickel cells and batteries containing non-acid electrolytes under intended use and reasonably foreseeable misuse.",
+    "certification_scheme": "Scheme II (Compulsory Registration Scheme - CRS) by MeitY",
+    "mandatory_status": "Mandatory under CRS",
+    "testing_parameters": "Continuous charging, external short circuit, free fall, thermal abuse, crush test, over-charge test, forced discharge.",
+    "source_url": "https://www.crsbis.in/BIS/products.do",
+    "source_document": "IS 16046:2018 / IEC 62133:2017 Safety Standard",
+    "reference_clause": "Part 1 Clause 7 (Nickel Systems Safety), Part 2 Clause 7.3 (Continuous Charging), Part 2 Clause 7.3.2 (External Short Circuit)",
+    "last_updated": "2024-02-18",
+    "applicable_products": [
+      "lithium batteries",
+      "laptop battery",
+      "mobile battery",
+      "power bank",
+      "rechargeable lithium cell"
+    ],
+    "standard_number": "IS 16046 (Part 1 & Part 2):2018",
+    "edition_or_year": "2018",
+    "product_categories": [
+      "Electronics & Information Technology",
+      "Energy Storage"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 16046 (Part 1 & Part 2):2018",
+    "supporting_excerpt": "Specifies requirements and tests for the safe operation of portable sealed secondary lithium and nickel cells and batteries containing non-acid electrolytes under intended use and reasonably foreseeab...",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2024-02-18",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Continuous charging, external short circuit, free fall, thermal abuse, crush test, over-charge test, forced discharge."
+    }
+  },
+  {
+    "id": "BIS-STD-006",
+    "standard_code": "IS 13252 (Part 1):2010",
+    "title": "Information Technology Equipment - Safety - General Requirements",
+    "category": "Electronics & Information Technology",
+    "product": "Laptops, desktop computers, mobile phones, servers, tablets, LED monitors",
+    "scope": "Applies to mains-powered or battery-powered information technology equipment, including electrical business equipment and associated equipment, with a rated voltage not exceeding 600 V.",
+    "certification_scheme": "Scheme II (Compulsory Registration Scheme - CRS) by MeitY",
+    "mandatory_status": "Mandatory under CRS",
+    "testing_parameters": "Protection from electric shock, insulation resistance, energy hazard, earth continuity, clearance and creepage distances, flammability test.",
+    "source_url": "https://www.crsbis.in/BIS/products.do",
+    "source_document": "IS 13252 (Part 1):2010 / IEC 60950-1:2005",
+    "reference_clause": "Clause 2.1 (Protection from Electric Shock), Clause 4.5 (Thermal Requirements), Clause 5.2 (Electric Strength)",
+    "last_updated": "2024-01-20",
+    "applicable_products": [
+      "laptops",
+      "smartphones",
+      "tablets",
+      "servers",
+      "computers",
+      "led monitors"
+    ],
+    "standard_number": "IS 13252 (Part 1):2010",
+    "edition_or_year": "2010",
+    "product_categories": [
+      "Electronics & Information Technology"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 13252 (Part 1):2010",
+    "supporting_excerpt": "Applies to mains-powered or battery-powered information technology equipment, including electrical business equipment and associated equipment, with a rated voltage not exceeding 600 V....",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2024-01-20",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Protection from electric shock, insulation resistance, energy hazard, earth continuity, clearance and creepage distances"
+    }
+  },
+  {
+    "id": "BIS-STD-007",
+    "standard_code": "IS 9873 (Part 1 to 9)",
+    "title": "Safety of Toys - Mechanical and Physical Properties, Flammability, and Migration of Elements",
+    "category": "Consumer Products and Safety / Child Safety",
+    "product": "Children toys, electronic toys, plastic toys, stuffed plush toys, wooden toys",
+    "scope": "Specifies acceptable criteria for the physical and mechanical properties, flammability, and heavy metal element migration limits in toys intended for use by children below 14 years.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Compulsory under Toys (Quality Control) Order",
+    "mandatory_status": "Mandatory",
+    "testing_parameters": "Small parts hazard, sharp edges and points, tensile test, drop test, flammability speed, chemical migration of phthalates, lead, cadmium.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/9873",
+    "source_document": "IS 9873 Series Safety Specifications",
+    "reference_clause": "Part 1 Clause 4 (General Requirements), Part 2 Clause 4 (Flammability), Part 3 Clause 4 (Migration of Certain Elements)",
+    "last_updated": "2024-04-01",
+    "applicable_products": [
+      "toys",
+      "kids toys",
+      "baby toys",
+      "dolls",
+      "action figures",
+      "plastic toys"
+    ],
+    "standard_number": "IS 9873 (Part 1 to 9)",
+    "edition_or_year": "Current",
+    "product_categories": [
+      "Consumer Products and Safety",
+      "Child Safety"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 9873 (Part 1 to 9)",
+    "supporting_excerpt": "Specifies acceptable criteria for the physical and mechanical properties, flammability, and heavy metal element migration limits in toys intended for use by children below 14 years....",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2024-04-01",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Small parts hazard, sharp edges and points, tensile test, drop test, flammability speed, chemical migration of phthalate"
+    }
+  },
+  {
+    "id": "BIS-STD-008",
+    "standard_code": "IS 269:2015",
+    "title": "Ordinary Portland Cement - Specification (33 Grade, 43 Grade and 53 Grade)",
+    "category": "Civil Engineering / Building Materials",
+    "product": "Ordinary Portland Cement, OPC 33, OPC 43, OPC 53, construction cement",
+    "scope": "Covers manufacture, chemical and physical requirements of ordinary Portland cement intended for structural and non-structural civil engineering applications.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Compulsory under Cement (Quality Control) Order",
+    "mandatory_status": "Mandatory",
+    "testing_parameters": "Compressive strength at 3, 7 and 28 days, initial and final setting times, soundness (Le Chatelier), fineness (Blaine air permeability), insoluble residue.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/269",
+    "source_document": "IS 269:2015 (Sixth Revision) Standard Document",
+    "reference_clause": "Clause 5 (Chemical Requirements Table 1), Clause 6 (Physical Requirements Table 2), Clause 9 (Marking)",
+    "last_updated": "2023-10-15",
+    "applicable_products": [
+      "cement",
+      "portland cement",
+      "opc cement",
+      "construction cement",
+      "opc 53"
+    ],
+    "standard_number": "IS 269:2015",
+    "edition_or_year": "2015",
+    "product_categories": [
+      "Civil Engineering",
+      "Building Materials"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 269:2015",
+    "supporting_excerpt": "Covers manufacture, chemical and physical requirements of ordinary Portland cement intended for structural and non-structural civil engineering applications....",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2023-10-15",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Compressive strength at 3, 7 and 28 days, initial and final setting times, soundness (Le Chatelier), fineness (Blaine ai"
+    }
+  },
+  {
+    "id": "BIS-STD-009",
+    "standard_code": "IS 1786:2008",
+    "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification",
+    "category": "Metallurgical Engineering / Steel & Iron",
+    "product": "TMT steel bars, Fe 415, Fe 500, Fe 500D, Fe 550, rebars for concrete reinforcement",
+    "scope": "Covers the technical requirements of high strength deformed steel bars and wires for use as reinforcement in concrete in grades Fe 415, Fe 415D, Fe 500, Fe 500D, Fe 550, Fe 550D, and Fe 600.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Compulsory under Steel & Steel Products QCO",
+    "mandatory_status": "Mandatory",
+    "testing_parameters": "0.2 percent proof stress/yield stress, tensile strength, percentage elongation, bend and rebend tests, chemical composition (carbon, sulfur, phosphorus).",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/1786",
+    "source_document": "IS 1786:2008 (Fourth Revision) Standard Document",
+    "reference_clause": "Clause 4 (Chemical Composition Table 1), Clause 8 (Mechanical Properties Table 3), Clause 10 (Marking)",
+    "last_updated": "2024-02-11",
+    "applicable_products": [
+      "tmt bars",
+      "steel rebars",
+      "fe 500d steel",
+      "reinforcement steel",
+      "iron rods"
+    ],
+    "standard_number": "IS 1786:2008",
+    "edition_or_year": "2008",
+    "product_categories": [
+      "Metallurgical Engineering",
+      "Steel & Iron"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 1786:2008",
+    "supporting_excerpt": "Covers the technical requirements of high strength deformed steel bars and wires for use as reinforcement in concrete in grades Fe 415, Fe 415D, Fe 500, Fe 500D, Fe 550, Fe 550D, and Fe 600....",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2024-02-11",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "0.2 percent proof stress/yield stress, tensile strength, percentage elongation, bend and rebend tests, chemical composit"
+    }
+  },
+  {
+    "id": "BIS-STD-010",
+    "standard_code": "IS 1417:2016",
+    "title": "Gold and Gold Alloys, Jewellery/Artefacts - Fineness and Marking - Specification",
+    "category": "Hallmarking / Precious Metals",
+    "product": "Gold jewellery, 14 karat gold, 18 karat gold, 22 karat gold, 24 karat gold bullion and artefacts",
+    "scope": "Specifies the fineness of gold in parts per thousand (karatage) and the marking protocol for gold jewellery and gold artefacts sold across India.",
+    "certification_scheme": "Hallmarking Scheme under BIS Act 2016 (Mandatory in notified districts)",
+    "mandatory_status": "Mandatory across designated Indian districts",
+    "testing_parameters": "Fire assay method (IS 1418), X-ray fluorescence (XRF) testing, fineness verification, 6-digit alphanumeric HUID engraving.",
+    "source_url": "https://www.bis.gov.in/hallmarking-overview/",
+    "source_document": "IS 1417:2016 Standard & Hallmarking Regulations",
+    "reference_clause": "Clause 4 (Fineness grades: 14K/585, 18K/750, 20K/833, 22K/916, 23K/958, 24K/995), Clause 5 (Marking & HUID)",
+    "last_updated": "2024-03-25",
+    "applicable_products": [
+      "gold jewellery",
+      "22k gold",
+      "gold rings",
+      "gold chain",
+      "gold bullion",
+      "18k gold ornament"
+    ],
+    "standard_number": "IS 1417:2016",
+    "edition_or_year": "2016",
+    "product_categories": [
+      "Hallmarking",
+      "Precious Metals"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 1417:2016",
+    "supporting_excerpt": "Specifies the fineness of gold in parts per thousand (karatage) and the marking protocol for gold jewellery and gold artefacts sold across India....",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2024-03-25",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Fire assay method (IS 1418), X-ray fluorescence (XRF) testing, fineness verification, 6-digit alphanumeric HUID engravin"
+    }
+  },
+  {
+    "id": "BIS-STD-011",
+    "standard_code": "IS 2112:2014",
+    "title": "Silver and Silver Alloys, Jewellery/Artefacts - Fineness and Marking - Specification",
+    "category": "Hallmarking / Precious Metals",
+    "product": "Silver jewellery, silver utensils, silver artefacts, 925 sterling silver, silver coins",
+    "scope": "Specifies declared fineness grades and hallmarking standards for silver jewellery and silver articles.",
+    "certification_scheme": "Hallmarking Scheme (Voluntary for Silver, notified centres)",
+    "mandatory_status": "Voluntary (Encouraged for trade integrity)",
+    "testing_parameters": "Volumetric / Potentiometric titration (IS 2113), ICP-OES, fineness grades 900, 925, 970, 990.",
+    "source_url": "https://www.bis.gov.in/hallmarking-overview/",
+    "source_document": "IS 2112:2014 Specification for Silver Marking",
+    "reference_clause": "Clause 4 (Fineness: 900, 925, 970, 990), Clause 5 (Hallmark Marks: BIS Logo, Assay Centre Mark, Jeweller Mark)",
+    "last_updated": "2023-11-10",
+    "applicable_products": [
+      "silver jewellery",
+      "925 sterling silver",
+      "silver coins",
+      "silver utensils",
+      "silver artefacts"
+    ],
+    "standard_number": "IS 2112:2014",
+    "edition_or_year": "2014",
+    "product_categories": [
+      "Hallmarking",
+      "Precious Metals"
+    ],
+    "compliance_status": "Voluntary Certification",
+    "mandatory_status_source": "Voluntary Standardization Directive",
+    "source_title": "BIS Standards Directory - IS 2112:2014",
+    "supporting_excerpt": "Specifies declared fineness grades and hallmarking standards for silver jewellery and silver articles....",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2023-11-10",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Volumetric / Potentiometric titration (IS 2113), ICP-OES, fineness grades 900, 925, 970, 990."
+    }
+  },
+  {
+    "id": "BIS-STD-012",
+    "standard_code": "IS 302 (Part 2/Sec 3):2007",
+    "title": "Safety of Household and Similar Electrical Appliances - Particular Requirements - Electric Iron",
+    "category": "Electrotechnical / Household Appliances",
+    "product": "Electric irons, steam irons, dry irons, travel irons",
+    "scope": "Deals with the safety of electric dry irons and steam irons for household and similar use, rated voltage not exceeding 250 V.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Compulsory under Electrical Appliances QCO",
+    "mandatory_status": "Mandatory",
+    "testing_parameters": "Input power and current, heating and thermal stability, leakage current and electric strength, moisture resistance, drop resistance.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/302-2-3",
+    "source_document": "IS 302-2-3 / IEC 60335-2-3 Safety of Household Electric Irons",
+    "reference_clause": "Clause 10 (Power Input), Clause 13 (Leakage Current), Clause 19 (Abnormal Operation)",
+    "last_updated": "2023-09-12",
+    "applicable_products": [
+      "electric iron",
+      "steam iron",
+      "dry iron",
+      "press iron"
+    ],
+    "standard_number": "IS 302 (Part 2/Sec 3):2007",
+    "edition_or_year": "2007",
+    "product_categories": [
+      "Electrotechnical",
+      "Household Appliances"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 302 (Part 2/Sec 3):2007",
+    "supporting_excerpt": "Deals with the safety of electric dry irons and steam irons for household and similar use, rated voltage not exceeding 250 V....",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2023-09-12",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Input power and current, heating and thermal stability, leakage current and electric strength, moisture resistance, drop"
+    }
+  },
+  {
+    "id": "BIS-STD-013",
+    "standard_code": "IS 10322 (Part 5/Sec 8):2013",
+    "title": "Luminaires - Particular Requirements - Emergency Lighting (LED Emergency Lights and Luminaires)",
+    "category": "Electrotechnical / Lighting and Luminaires",
+    "product": "Rechargeable LED emergency lights, emergency luminaires, self-contained escape lighting, backup lanterns",
+    "scope": "Specifies requirements for emergency lighting luminaires for use with electrical light sources (including LEDs) on emergency power supplies and internal batteries, covering luminous flux duration, battery charger safety, thermal endurance, and automatic change-over operation.",
+    "certification_scheme": "Scheme II (Compulsory Registration Scheme - CRS) / Scheme I (ISI Mark)",
+    "mandatory_status": "Mandatory under Lighting & Luminaires QCO / CRS",
+    "testing_parameters": "Emergency operating duration test, battery charge and discharge cycle test, photometrics and luminous output, high temperature endurance, insulation resistance and dielectric strength, changeover operation voltage threshold.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/10322-5-8",
+    "source_document": "IS 10322 (Part 5/Sec 8):2013 / IEC 60598-2-22 Specification for Emergency Luminaires",
+    "reference_clause": "Clause 22.6 (Electrical & Battery Safety), Clause 22.12 (Thermal Performance), Clause 22.16 (Photometric and Duration Performance)",
+    "last_updated": "2024-02-10",
+    "applicable_products": [
+      "rechargeable led emergency lights",
+      "emergency lights",
+      "led emergency light",
+      "emergency lantern",
+      "emergency luminaire",
+      "rechargeable led lights"
+    ],
+    "standard_number": "IS 10322 (Part 5/Sec 8):2013",
+    "edition_or_year": "2013",
+    "product_categories": [
+      "Electrotechnical",
+      "Lighting and Luminaires"
+    ],
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status_source": "Central Government QCO Gazette Notification",
+    "source_title": "BIS Standards Directory - IS 10322 (Part 5/Sec 8):2013",
+    "supporting_excerpt": "Specifies requirements for emergency lighting luminaires for use with electrical light sources (including LEDs) on emergency power supplies and internal batteries, covering luminous flux duration, bat...",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2024-02-10",
+    "superseded_by": null,
+    "language": "en",
+    "metadata": {
+      "catalog_layer": "Core BIS Mandatory Registry",
+      "testing_parameters_summary": "Emergency operating duration test, battery charge and discharge cycle test, photometrics and luminous output, high tempe"
+    }
+  },
+  {
+    "id": "BIS-STD-014",
+    "standard_code": "IS 616:2017",
+    "standard_number": "IS 616:2017",
+    "title": "Audio, Video and Similar Electronic Apparatus - Safety Requirements",
+    "edition_or_year": "2017 (Fifth Revision) / IEC 60065:2014",
+    "category": "Electronics & Information Technology",
+    "product_categories": [
+      "Electronics & Information Technology"
+    ],
+    "product": "Earphones, headphones, earbuds, wireless Bluetooth headsets, sound equipment, audio amplifiers",
+    "scope": "Covers safety requirements for electronic apparatus designed to be fed from mains, supply apparatus, batteries or remote power feeding, intended for reception, generation, recording or reproduction of audio signals.",
+    "certification_scheme": "Scheme II (Compulsory Registration Scheme - CRS)",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "MeitY Electronics and Information Technology Goods (Requirement for Compulsory Registration) Order 2021",
+    "testing_parameters": "Acoustic safety and sound pressure limit test (Clause 5.1), electric shock hazard protection, insulation resistance, mechanical strength, and fire resistance.",
+    "source_url": "https://www.crsbis.in/BIS/products-covered.do",
+    "source_title": "MeitY Compulsory Registration Scheme (CRS) - Products Covered",
+    "source_document": "MeitY Gazette Order & IS 616:2017 Standard Specification",
+    "reference_clause": "Clause 4 (General Requirements), Clause 5.1 (Acoustic Pressure Limits), Clause 8 (Electric Shock Hazard)",
+    "supporting_excerpt": "Manufacturers and importers of audio apparatus including earphones and headphones must obtain registration from BIS before placing goods on the Indian market under MeitY CRS Scheme II.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2018-07-01",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "LITD 07",
+      "ics_code": "33.160.01",
+      "testing_lab_disciplines": [
+        "Electrical Safety",
+        "Acoustic Testing"
+      ]
+    },
+    "applicable_products": [
+      "earphone",
+      "earphones",
+      "headphone",
+      "headphones",
+      "earbuds",
+      "tws",
+      "bluetooth earphones",
+      "wireless headset",
+      "audio amplifier",
+      "sound equipment"
+    ]
+  },
+  {
+    "id": "BIS-STD-015",
+    "standard_code": "IS 16102 (Part 1 & 2):2012",
+    "standard_number": "IS 16102 (Part 1 & 2):2012",
+    "title": "Self-Ballasted LED Lamps for General Lighting Services",
+    "edition_or_year": "2012 (First Edition)",
+    "category": "Electrotechnical / Lighting & Luminaires",
+    "product_categories": [
+      "Electrotechnical",
+      "Lighting & Luminaires"
+    ],
+    "product": "LED bulbs, self-ballasted LED lamps, domestic LED retrofit lamps",
+    "scope": "Specifies safety requirements (Part 1) and performance requirements (Part 2) for self-ballasted LED lamps for general lighting services having a rated wattage up to 60 W and a rated voltage up to 250 V.",
+    "certification_scheme": "Scheme II (Compulsory Registration Scheme - CRS)",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "MeitY Electronics and Information Technology Goods QCO / BEE Standards",
+    "testing_parameters": "Insulation resistance, electric strength, creepage distance, mechanical resistance to torsion, lumen maintenance, and harmonic distortion limits.",
+    "source_url": "https://www.crsbis.in/BIS/products-covered.do",
+    "source_title": "BIS CRS Portal - Self-Ballasted LED Lamps",
+    "source_document": "IS 16102 (Part 1 & Part 2):2012 Standard Document",
+    "reference_clause": "Part 1: Clause 6 (Interchangeability), Clause 7 (Protection Against Electric Shock), Clause 9 (Insulation Resistance)",
+    "supporting_excerpt": "Self-ballasted LED lamps for general lighting are covered under mandatory BIS registration to ensure electrical safety and energy performance.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2014-05-01",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "ETD 23",
+      "ics_code": "29.140.01",
+      "testing_lab_disciplines": [
+        "Electrical Safety",
+        "Photometry"
+      ]
+    },
+    "applicable_products": [
+      "led bulb",
+      "led bulbs",
+      "led lamp",
+      "led lamps",
+      "self-ballasted lamp",
+      "retrofit led",
+      "b22 led bulb",
+      "e27 led bulb"
+    ]
+  },
+  {
+    "id": "BIS-STD-016",
+    "standard_code": "IS 14286:2010",
+    "standard_number": "IS 14286:2010",
+    "title": "Crystalline Silicon Terrestrial Photovoltaic (PV) Modules - Design Qualification and Type Approval",
+    "edition_or_year": "2010 / IEC 61215:2005",
+    "category": "Renewable Energy / Solar Photovoltaics",
+    "product_categories": [
+      "Renewable Energy",
+      "Solar Photovoltaics"
+    ],
+    "product": "Solar panels, photovoltaic (PV) modules, mono/polycrystalline solar modules",
+    "scope": "Lays down requirements for the design qualification and type approval of terrestrial crystalline silicon photovoltaic modules suitable for long-term operation in general open-air climates.",
+    "certification_scheme": "Scheme II (CRS) under Ministry of New and Renewable Energy (MNRE) Order",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "MNRE Solar Photovoltaics Systems, Devices and Components Goods (Requirement for Compulsory Registration) Order 2017",
+    "testing_parameters": "Thermal cycling test, damp heat test, mechanical load test, hail impact test, wet leakage current test, and maximum power determination.",
+    "source_url": "https://www.crsbis.in/BIS/products-covered.do",
+    "source_title": "MNRE Solar PV Compulsory Registration Guidelines",
+    "source_document": "IS 14286:2010 Standard Specification & MNRE Order",
+    "reference_clause": "Clause 10.1 (Visual Inspection), Clause 10.11 (Thermal Cycling), Clause 10.13 (Damp Heat Test)",
+    "supporting_excerpt": "Solar photovoltaic modules must be tested in accredited laboratories and registered with BIS under the MNRE Quality Control Order.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2018-04-16",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "ETD 28",
+      "ics_code": "27.160",
+      "testing_lab_disciplines": [
+        "Solar Photovoltaics",
+        "Environmental Testing"
+      ]
+    },
+    "applicable_products": [
+      "solar panel",
+      "solar panels",
+      "photovoltaic module",
+      "pv module",
+      "solar pv module",
+      "crystalline silicon module",
+      "solar cells"
+    ]
+  },
+  {
+    "id": "BIS-STD-017",
+    "standard_code": "IS 1391 (Part 1 & 2):2017",
+    "standard_number": "IS 1391 (Part 1 & 2):2017",
+    "title": "Room Air Conditioners - Specification",
+    "edition_or_year": "2017 (Third Revision)",
+    "category": "Mechanical & Thermal Engineering / HVAC",
+    "product_categories": [
+      "Mechanical & Thermal Engineering",
+      "HVAC"
+    ],
+    "product": "Air conditioners, window air conditioner, split air conditioner, unitary air conditioner",
+    "scope": "Prescribes constructional, performance and safety requirements and methods of testing of room air conditioners including window-type (Part 1) and split-type (Part 2) operating on vapor compression refrigeration.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Mandatory Certification under QCO",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "DPIIT Air Conditioners and its Related Parts, Hermetic Compressors and Temperature Sensing Controls QCO 2019",
+    "testing_parameters": "Cooling capacity rating test, maximum operating conditions test, enclosure sweat and condensate disposal test, electrical insulation and earth continuity test.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/1391",
+    "source_title": "BIS Portal - Room Air Conditioners Standards",
+    "source_document": "IS 1391 (Part 1 & Part 2):2017 Standard Document",
+    "reference_clause": "Clause 8 (Performance Requirements), Clause 10 (Electrical Safety), Clause 11 (Rating Tests)",
+    "supporting_excerpt": "Under the DPIIT Air Conditioners QCO, no person shall manufacture, import, or sell room air conditioners without bearing the BIS ISI Standard Mark.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2020-01-01",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "MED 03",
+      "ics_code": "23.120",
+      "testing_lab_disciplines": [
+        "Thermal Performance",
+        "Electrical Safety",
+        "Acoustics"
+      ]
+    },
+    "applicable_products": [
+      "air conditioner",
+      "air conditioners",
+      "split ac",
+      "window ac",
+      "room air conditioner",
+      "inverter ac"
+    ]
+  },
+  {
+    "id": "BIS-STD-018",
+    "standard_code": "IS 15844 (Part 1):2023",
+    "standard_number": "IS 15844 (Part 1):2023",
+    "title": "Footwear Made from Leather and Other Materials - Specification",
+    "edition_or_year": "2023 (Second Revision)",
+    "category": "Chemical & Consumer Products / Footwear",
+    "product_categories": [
+      "Chemical & Consumer Products",
+      "Footwear"
+    ],
+    "product": "Leather shoes, formal footwear, sports shoes, casual footwear, boots",
+    "scope": "Prescribes requirements, methods of sampling, and test methods for footwear made from leather and other materials for general purposes.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Mandatory Certification under QCO",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "DPIIT Footwear Made from Leather and Other Materials (Quality Control) Order 2022",
+    "testing_parameters": "Upper leather tear strength, sole adhesion strength, flex resistance of outsole, abrasion resistance, and chemical restriction testing (azo dyes, chromium VI).",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/15844",
+    "source_title": "DPIIT Footwear Quality Control Order Gazette",
+    "source_document": "IS 15844 (Part 1):2023 Standard Specification",
+    "reference_clause": "Clause 4 (Design & Materials), Clause 5 (Performance Requirements), Clause 6 (Physical Testing)",
+    "supporting_excerpt": "Footwear manufactured in or imported into India must comply with the Indian Standard and carry the ISI Mark under the mandatory Footwear QCO.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2023-07-01",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "CHD 17",
+      "ics_code": "61.060",
+      "testing_lab_disciplines": [
+        "Mechanical Testing",
+        "Chemical Analysis"
+      ]
+    },
+    "applicable_products": [
+      "footwear",
+      "shoes",
+      "leather shoes",
+      "sports shoes",
+      "casual shoes",
+      "boots",
+      "formal footwear"
+    ]
+  },
+  {
+    "id": "BIS-STD-019",
+    "standard_code": "IS 2347:2017",
+    "standard_number": "IS 2347:2017",
+    "title": "Domestic Pressure Cookers - Specification",
+    "edition_or_year": "2017 (Fifth Revision)",
+    "category": "Mechanical Engineering / Utensils",
+    "product_categories": [
+      "Mechanical Engineering",
+      "Utensils"
+    ],
+    "product": "Domestic pressure cookers, stainless steel pressure cooker, aluminium pressure cooker",
+    "scope": "Specifies requirements for domestic pressure cookers made of aluminium alloys or stainless steel, of capacities up to and including 15 litres.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Mandatory Certification under QCO",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "DPIIT Domestic Pressure Cooker (Quality Control) Order 2020",
+    "testing_parameters": "Hydrostatic pressure proof test (Clause 8.1), operating pressure test (Clause 8.2), safety relief device burst test, thermal shock test, handle temperature rise test.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/2347",
+    "source_title": "BIS Portal - Domestic Pressure Cookers",
+    "source_document": "IS 2347:2017 Standard Document & DPIIT QCO",
+    "reference_clause": "Clause 5 (Material Requirements), Clause 8 (Safety Mechanism Tests), Clause 9 (Marking and Instructions)",
+    "supporting_excerpt": "Under the Domestic Pressure Cooker QCO, it is illegal to manufacture or distribute pressure cookers in India without valid BIS certification due to safety risks from pressure explosions.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2021-02-01",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "MED 33",
+      "ics_code": "97.040.60",
+      "testing_lab_disciplines": [
+        "Pressure Vessel Testing",
+        "Material Metallurgy"
+      ]
+    },
+    "applicable_products": [
+      "pressure cooker",
+      "pressure cookers",
+      "cooker",
+      "domestic pressure cooker",
+      "stainless steel cooker",
+      "aluminium pressure cooker"
+    ]
+  },
+  {
+    "id": "BIS-STD-020",
+    "standard_code": "IS 3196 (Part 1):2013",
+    "standard_number": "IS 3196 (Part 1):2013",
+    "title": "Welded Low Carbon Steel Cylinders Exceeding 5 Litre Water Capacity for Low Pressure Liquefiable Gases - Specification",
+    "edition_or_year": "2013 (Sixth Revision)",
+    "category": "Mechanical Engineering / Pressure Vessels",
+    "product_categories": [
+      "Mechanical Engineering",
+      "Pressure Vessels"
+    ],
+    "product": "LPG gas cylinders, domestic cooking gas cylinder, 14.2 kg LPG cylinder, commercial gas cylinder",
+    "scope": "Specifies minimum requirements for the design, construction, testing and examination of welded low carbon steel cylinders exceeding 5 litre water capacity intended for storage and transportation of low-pressure liquefiable gases like LPG.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Mandatory under Gas Cylinders Rules and PESO",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "Petroleum and Explosives Safety Organization (PESO) & Gas Cylinders Rules 2016",
+    "testing_parameters": "Hydrostatic stretch test, burst pressure test, tensile test, bend test, weld radiographic examination.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/3196",
+    "source_title": "PESO & BIS Gas Cylinders Regulations",
+    "source_document": "IS 3196 (Part 1):2013 Standard Document",
+    "reference_clause": "Clause 6 (Material Specification), Clause 8 (Design Thickness), Clause 11 (Pressure and Burst Tests)",
+    "supporting_excerpt": "All LPG cylinders manufactured in India must strictly adhere to IS 3196 and bear the ISI mark and PESO manufacturing authorization.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2013-10-01",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "MED 16",
+      "ics_code": "23.020.35",
+      "testing_lab_disciplines": [
+        "Pressure Vessel Testing",
+        "Radiography",
+        "Hydrostatic Testing"
+      ]
+    },
+    "applicable_products": [
+      "lpg cylinder",
+      "lpg cylinders",
+      "gas cylinder",
+      "cooking gas cylinder",
+      "14.2kg cylinder",
+      "domestic gas cylinder"
+    ]
+  },
+  {
+    "id": "BIS-STD-021",
+    "standard_code": "IS 694:2010",
+    "standard_number": "IS 694:2010",
+    "title": "Polyvinyl Chloride Insulated Cables for Working Voltages up to and Including 1100 V - Specification",
+    "edition_or_year": "2010 (Fourth Revision)",
+    "category": "Electrotechnical / Wires & Cables",
+    "product_categories": [
+      "Electrotechnical",
+      "Wires & Cables"
+    ],
+    "product": "PVC electric cables, copper house wire, domestic wiring cables, flexible cords 1100V",
+    "scope": "Covers requirements for single-core and multi-core PVC insulated and sheathed/unsheathed cables with copper or aluminium conductors for electric power and lighting working voltages up to and including 1100 V a.c.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Mandatory Certification under QCO",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "DPIIT Electrical Wires and Cables (Quality Control) Order 2021",
+    "testing_parameters": "Conductor resistance test, insulation thickness, spark test, tensile strength and elongation of PVC insulation, thermal ageing test, flammability test.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/694",
+    "source_title": "DPIIT Electrical Wires and Cables QCO Notification",
+    "source_document": "IS 694:2010 Standard Document",
+    "reference_clause": "Clause 7 (Conductors), Clause 8 (Insulation), Clause 15 (Testing Protocols)",
+    "supporting_excerpt": "Under the Electrical Wires and Cables QCO, building wiring and cables up to 1100V cannot be sold in India without the ISI certification mark.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2011-04-01",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "ETD 09",
+      "ics_code": "29.060.20",
+      "testing_lab_disciplines": [
+        "High Voltage Testing",
+        "Polymer Chemistry"
+      ]
+    },
+    "applicable_products": [
+      "electric wire",
+      "electric cable",
+      "pvc wire",
+      "house wiring",
+      "copper wire",
+      "1100v cable",
+      "domestic electrical cable"
+    ]
+  },
+  {
+    "id": "BIS-STD-022",
+    "standard_code": "IS 16221 (Part 2):2015",
+    "standard_number": "IS 16221 (Part 2):2015",
+    "title": "Safety of Power Converters for Use in Photovoltaic Power Systems - Part 2 Particular Requirements for Inverters",
+    "edition_or_year": "2015 / IEC 62109-2:2011",
+    "category": "Renewable Energy / Solar Inverters",
+    "product_categories": [
+      "Renewable Energy",
+      "Solar Inverters"
+    ],
+    "product": "Solar inverters, grid-tied solar inverters, PV power converters, solar rooftop inverters",
+    "scope": "Applies to grid-interactive and stand-alone power conversion inverters for photovoltaic systems, providing requirements against electrical shock, energy, fire and mechanical hazards.",
+    "certification_scheme": "Scheme II (CRS) under MNRE Compulsory Order",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "MNRE Solar Photovoltaics Systems, Devices and Components Goods (Requirement for Compulsory Registration) Order 2017",
+    "testing_parameters": "Insulation resistance, anti-islanding protection test, over-voltage/under-voltage protection, harmonic distortion, short-circuit withstand test.",
+    "source_url": "https://www.crsbis.in/BIS/products-covered.do",
+    "source_title": "MNRE Solar Inverters CRS Registration Guidelines",
+    "source_document": "IS 16221 (Part 2):2015 Standard Document & MNRE Guidelines",
+    "reference_clause": "Clause 4 (General Testing), Clause 5 (Protection against Electric Shock), Clause 9 (Protection against Hazards)",
+    "supporting_excerpt": "Solar inverters installed in grid-connected or off-grid installations in India must be registered with BIS under the MNRE notification.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2018-04-16",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "ETD 28",
+      "ics_code": "27.160",
+      "testing_lab_disciplines": [
+        "Power Electronics",
+        "Grid Simulation"
+      ]
+    },
+    "applicable_products": [
+      "solar inverter",
+      "solar inverters",
+      "grid tie inverter",
+      "pv inverter",
+      "rooftop solar inverter",
+      "power converter"
+    ]
+  },
+  {
+    "id": "BIS-STD-023",
+    "standard_code": "IS 12640 (Part 1):2016",
+    "standard_number": "IS 12640 (Part 1):2016",
+    "title": "Residual Current Operated Circuit-Breakers without Integral Overcurrent Protection for Household and Similar Uses (RCCBs)",
+    "edition_or_year": "2016 (First Revision) / IEC 61008-1:2012",
+    "category": "Electrotechnical / Electrical Safety Devices",
+    "product_categories": [
+      "Electrotechnical",
+      "Electrical Safety Devices"
+    ],
+    "product": "RCCB, residual current circuit breaker, earth leakage circuit breaker, ELCB",
+    "scope": "Applies to residual current operated circuit-breakers functionally independent of or functionally dependent on line voltage, for rated voltages not exceeding 440 V a.c. and rated currents not exceeding 125 A.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Mandatory Certification under QCO",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "DPIIT Electrical Apparatus for Explosive Atmospheres and Low Voltage Switchgear QCO 2023",
+    "testing_parameters": "Tripping characteristic test at residual currents (Clause 9.9), short-circuit withstand capacity, endurance test under load, mechanical shock and vibration test.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/12640",
+    "source_title": "BIS Portal - Residual Current Circuit Breakers",
+    "source_document": "IS 12640 (Part 1):2016 Standard Specification",
+    "reference_clause": "Clause 8 (Operating Characteristics), Clause 9 (Type Tests & Verification of Tripping Limits)",
+    "supporting_excerpt": "RCCBs prevent fatal electric shocks and fires caused by residual leakage currents. Mandated under the Low Voltage Switchgear QCO.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2024-05-10",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "ETD 07",
+      "ics_code": "29.120.50",
+      "testing_lab_disciplines": [
+        "High Voltage Testing",
+        "Switchgear & Breaking Capacity"
+      ]
+    },
+    "applicable_products": [
+      "rccb",
+      "residual current circuit breaker",
+      "elcb",
+      "earth leakage breaker",
+      "shock protection switch",
+      "electrical safety breaker"
+    ]
+  },
+  {
+    "id": "BIS-STD-024",
+    "standard_code": "IS 4984:2016",
+    "standard_number": "IS 4984:2016",
+    "title": "High Density Polyethylene Pipes for Water Supply - Specification",
+    "edition_or_year": "2016 (Fifth Revision)",
+    "category": "Civil Engineering / Piping Systems",
+    "product_categories": [
+      "Civil Engineering",
+      "Piping Systems"
+    ],
+    "product": "HDPE pipes, polyethylene water supply pipes, agricultural irrigation pipes, potable water piping",
+    "scope": "Specifies requirements for high density polyethylene (HDPE) pipes from 16 mm to 1000 mm nominal outer diameter intended for carrying potable water, drainage, and industrial fluid transmission.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Mandatory Certification under QCO",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "Department of Chemicals and Petrochemicals (DCPC) Polyethylene Pipes QCO 2022",
+    "testing_parameters": "Hydraulic internal pressure creep rupture test, carbon black content and dispersion, density test, melt flow rate, oxidation induction time (OIT).",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/4984",
+    "source_title": "DCPC Polyethylene Pipes QCO Notification",
+    "source_document": "IS 4984:2016 Standard Specification",
+    "reference_clause": "Clause 5 (Material Requirements), Clause 8 (Hydrostatic Pressure Strength), Clause 10 (Sampling and Acceptance)",
+    "supporting_excerpt": "HDPE pipes for potable water distribution must be certified under IS 4984 to guarantee durability and food contact safety.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2022-12-01",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "CED 50",
+      "ics_code": "23.040.20",
+      "testing_lab_disciplines": [
+        "Polymer Testing",
+        "Hydrostatic Testing"
+      ]
+    },
+    "applicable_products": [
+      "hdpe pipe",
+      "hdpe pipes",
+      "polyethylene pipe",
+      "water supply pipe",
+      "irrigation pipe",
+      "plastic water pipe"
+    ]
+  },
+  {
+    "id": "BIS-STD-025",
+    "standard_code": "IS 15298 (Part 2):2016",
+    "standard_number": "IS 15298 (Part 2):2016",
+    "title": "Personal Protective Equipment - Safety Footwear",
+    "edition_or_year": "2016 (Second Revision) / ISO 20345:2011",
+    "category": "Chemical & Consumer Products / Industrial Safety",
+    "product_categories": [
+      "Chemical & Consumer Products",
+      "Industrial Safety"
+    ],
+    "product": "Industrial safety shoes, steel toe cap boots, protective work footwear",
+    "scope": "Specifies basic and additional (optional) requirements for safety footwear used for general purposes, incorporating steel or composite protective toecaps to withstand 200 Joules impact.",
+    "certification_scheme": "Scheme I (ISI Mark Scheme) - Mandatory Certification under QCO",
+    "compliance_status": "Compulsory under QCO",
+    "mandatory_status": "Mandatory",
+    "mandatory_status_source": "DPIIT Personal Protective Equipment (Footwear) Quality Control Order 2020",
+    "testing_parameters": "Toecap impact resistance (200 J), toecap compression resistance (15 kN), penetration resistance of sole, anti-static properties, fuel oil resistance.",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/15298",
+    "source_title": "DPIIT Protective Footwear Quality Control Order",
+    "source_document": "IS 15298 (Part 2):2016 Standard Specification",
+    "reference_clause": "Clause 5 (Basic Requirements for Safety Footwear), Clause 5.3 (Toe Protection), Clause 5.8 (Outsole Properties)",
+    "supporting_excerpt": "Under DPIIT Quality Control Orders, industrial safety shoes must carry the ISI mark confirming toecap impact and compression safety.",
+    "verification_status": "verified",
+    "verified_at": "2026-10-27",
+    "last_checked_at": "2026-10-27",
+    "effective_date": "2021-07-01",
+    "superseded_by": null,
+    "language": "en",
+    "last_updated": "2026-10-27",
+    "metadata": {
+      "technical_committee": "CHD 17",
+      "ics_code": "13.340.50",
+      "testing_lab_disciplines": [
+        "Impact Testing",
+        "Mechanical Resistance",
+        "Electrical Resistance"
+      ]
+    },
+    "applicable_products": [
+      "safety shoes",
+      "safety boots",
+      "steel toe shoes",
+      "industrial footwear",
+      "protective boots",
+      "safety work shoes"
+    ]
+  }
+]

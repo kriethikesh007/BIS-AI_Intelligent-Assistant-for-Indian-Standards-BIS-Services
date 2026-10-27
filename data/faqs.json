@@ -1,0 +1,62 @@
+[
+  {
+    "id": "BIS-FAQ-01",
+    "topic": "Consumer Grievances & Fake ISI Mark",
+    "question": "How can a consumer verify if an ISI mark or BIS license on a product is genuine or lodge a complaint against counterfeit goods?",
+    "answer": "Consumers can instantly verify the authenticity of an ISI Mark or CRS Registration using the official 'BIS CARE' mobile app (available on Android & iOS) or through the BIS Manakonline web portal. In the BIS CARE app, click on 'Verify License Details' and enter the 7-digit or 8-digit CML licence number printed underneath the ISI mark. If the number does not match the product or manufacturer, or if an inferior product is supplied, consumers can lodge a complaint directly on the 'Complaints' tab of the BIS CARE app or email complaints@bis.gov.in. BIS conducts investigation raids and seizes fake marked articles under penal provisions of the BIS Act, 2016.",
+    "source_url": "https://www.bis.gov.in/consumer-affairs/overview-consumer-affairs/",
+    "source_document": "BIS Consumer Affairs Redressal Guidelines & BIS CARE Portal",
+    "reference_clause": "BIS Act 2016, Chapter III & BIS Care Verification Module",
+    "last_updated": "2024-03-12"
+  },
+  {
+    "id": "BIS-FAQ-02",
+    "topic": "Gold Hallmarking & HUID Verification",
+    "question": "What is HUID in gold jewellery and how do consumers check purity using HUID?",
+    "answer": "HUID stands for 'Hallmark Unique Identification', which is a unique 6-digit alphanumeric code laser-engraved onto every single piece of hallmarked gold jewellery alongside the BIS triangle logo and purity fineness mark (e.g., 22K916). Consumers can verify gold purity by entering the 6-digit HUID into the 'Verify HUID' feature of the BIS CARE app. The app displays the Jeweller's registration number, Assaying and Hallmarking Centre (AHC) details, date of hallmarking, and exact purity karatage. Under government rules, no jeweller can sell hallmarked gold jewellery without a valid 6-digit HUID.",
+    "source_url": "https://www.bis.gov.in/hallmarking-overview/",
+    "source_document": "Department of Consumer Affairs & BIS Hallmarking Regulations 2021",
+    "reference_clause": "Hallmarking of Gold Jewellery & Gold Artefacts Order; IS 1417 Clause 5",
+    "last_updated": "2024-03-20"
+  },
+  {
+    "id": "BIS-FAQ-03",
+    "topic": "Mandatory Certification and Quality Control Orders",
+    "question": "What are Quality Control Orders (QCOs) and which products cannot be sold in India without BIS certification?",
+    "answer": "Quality Control Orders (QCOs) are statutory orders issued by the Government of India under Section 16 of the BIS Act, 2016 in the public interest of health, safety, environment, and prevention of deceptive practices. When a product is covered under a mandatory QCO, it cannot be produced, imported, stocked, distributed, or sold in the Indian market without a valid BIS Licence or Registration bearing the ISI Mark or CRS mark. Key product groups under mandatory QCO include: two-wheeler protective helmets, packaged drinking water, cement, structural and TMT steel, domestic electrical plugs/sockets, electric irons, toys for children, and IT/electronic items like laptops, mobile phones, and lithium-ion batteries.",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_document": "BIS Compulsory Certification Product List & Gazetted QCOs",
+    "reference_clause": "BIS Act 2016, Section 16 (Power of Central Government to Direct Compulsory Use of Standard Mark)",
+    "last_updated": "2024-02-14"
+  },
+  {
+    "id": "BIS-FAQ-04",
+    "topic": "MSME and Startup Incentives",
+    "question": "What concessions and fee rebates does BIS offer to Startups and MSMEs?",
+    "answer": "To foster innovation and ease of doing business, BIS provides substantial concessions for Micro, Small and Medium Enterprises (MSMEs) and DPIIT-recognized Startups: 1) A 20% concession on the application fee, annual licence fee, and minimum marking fee for all micro and small scale industries. 2) A 20% concession for Startups recognized by DPIIT. 3) An additional 10% special concession for women entrepreneurs running MSMEs. 4) Zero registration fee for small jewellers having annual turnover up to ₹40 lakhs seeking hallmarking portal registration.",
+    "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/07/Concession-to-MSMEs-and-Start-ups.pdf",
+    "source_document": "BIS Circular on Financial Concessions to MSME & Startups",
+    "reference_clause": "BIS Circular Ref: CMD-I/Concession-MSME/2021",
+    "last_updated": "2024-01-30"
+  },
+  {
+    "id": "BIS-FAQ-05",
+    "topic": "Process to Obtain BIS ISI Mark Licence for Manufacturers",
+    "question": "What is the step-by-step procedure for a new manufacturer to get a BIS ISI mark licence?",
+    "answer": "The step-by-step process under Scheme-I on the Manakonline portal is: 1) Identification of relevant Indian Standard (e.g. IS 4151 for helmets). 2) Establishing in-house testing laboratory and quality assurance infrastructure as per BIS Scheme of Testing and Inspection (STI). 3) Submitting online application along with manufacturing machinery details, test equipment calibration records, and fee. 4) Verification visit / audit by BIS technical officer at factory premises. 5) Drawing of independent samples during visit for testing at BIS laboratory. 6) Grant of Licence (CML number) upon satisfactory test results. Timeframe typically ranges from 30 to 60 days under simplified procedure.",
+    "source_url": "https://www.manakonline.in",
+    "source_document": "BIS Product Certification Guidelines (Scheme I - Simplified Procedure)",
+    "reference_clause": "Regulation 4, BIS (Conformity Assessment) Regulations 2018",
+    "last_updated": "2024-02-20"
+  },
+  {
+    "id": "BIS-FAQ-06",
+    "topic": "Know Your Standards & Accessing Standards",
+    "question": "How can students, researchers, and industries view or download Indian Standards?",
+    "answer": "Under the 'Know Your Standards' initiative, Bureau of Indian Standards allows free public viewing of all Indian Standards on the BIS Standards Portal (standardsbis.bsbedge.com / services.bis.gov.in). Users can search standards by standard number, keyword, product title, or technical committee code. Educational institutions can also sign MoUs with BIS to establish Standards Clubs and access technical resources for curriculum integration.",
+    "source_url": "https://standardsbis.bsbedge.com/",
+    "source_document": "BIS Standards Portal & Standards Promotion Guidelines",
+    "reference_clause": "BIS Act 2016 Section 10 (Establishment and Publication of Indian Standards)",
+    "last_updated": "2023-12-01"
+  }
+]

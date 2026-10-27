@@ -1,0 +1,363 @@
+{
+  "dataset_version": "2.0 (Comprehensive 25-Standard Expanded Catalog)",
+  "evaluation_timestamp": "2026-10-27T09:19:04Z",
+  "total_standards_indexed": 25,
+  "total_evaluation_queries": 35,
+  "in_catalog_queries": 33,
+  "out_of_catalog_queries": 2,
+  "top_1_accuracy": 1.0,
+  "top_3_accuracy": 1.0,
+  "top_5_accuracy": 1.0,
+  "mrr": 1.0,
+  "precision_at_1": 1.0,
+  "precision_at_3": 0.3333,
+  "precision_at_5": 0.2,
+  "normalized_precision_at_3": 1.0,
+  "normalized_precision_at_5": 1.0,
+  "recall_at_1": 1.0,
+  "recall_at_3": 1.0,
+  "recall_at_5": 1.0,
+  "out_of_catalog_abstention_rate": 1.0,
+  "mean_latency_ms": 7.13,
+  "p95_latency_ms": 12.04,
+  "metric_definitions": {
+    "top_1_accuracy": "Proportion of queries where the target standard is ranked at Rank 1.",
+    "top_5_accuracy": "Proportion of queries where the target standard appears in the top 5 ranked recommendations (Hit Rate@5).",
+    "mrr": "Mean Reciprocal Rank (1/rank) of the target standard.",
+    "precision_at_k": "Average ratio of relevant items among top K returned results. Note: On single-target queries, max theoretical Precision@3 is 33.3% and Precision@5 is 20.0%.",
+    "normalized_precision_at_k": "Precision@K divided by theoretical maximum precision for the query target count, measuring relevant ranking efficiency without single-target penalty.",
+    "out_of_catalog_abstention_rate": "Proportion of fictitious or out-of-catalog queries correctly resulting in no false high-confidence recommendation."
+  },
+  "per_query_results": [
+    {
+      "id": "RET-01",
+      "query": "IS 4151 motorcycle helmets specifications",
+      "targets": [
+        "4151"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 4151:2020",
+      "latency_ms": 11.61
+    },
+    {
+      "id": "RET-02",
+      "query": "IS 14543 packaged drinking water requirements",
+      "targets": [
+        "14543"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 14543:2016",
+      "latency_ms": 4.73
+    },
+    {
+      "id": "RET-03",
+      "query": "IS 616 audio video and earphones safety",
+      "targets": [
+        "616"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 616:2017",
+      "latency_ms": 3.67
+    },
+    {
+      "id": "RET-04",
+      "query": "IS 2347 domestic pressure cookers",
+      "targets": [
+        "2347"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 2347:2017",
+      "latency_ms": 2.65
+    },
+    {
+      "id": "RET-05",
+      "query": "IS 694 pvc insulated electric wires and cables",
+      "targets": [
+        "694"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 694:2010",
+      "latency_ms": 3.35
+    },
+    {
+      "id": "RET-06",
+      "query": "Protective helmets for two wheeler motorcycle riders",
+      "targets": [
+        "4151"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 4151:2020",
+      "latency_ms": 5.08
+    },
+    {
+      "id": "RET-07",
+      "query": "Commercial packaged drinking water 20 litre bottles",
+      "targets": [
+        "14543"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 14543:2016",
+      "latency_ms": 4.07
+    },
+    {
+      "id": "RET-08",
+      "query": "Plugs and socket-outlets 16A 6A for domestic appliances",
+      "targets": [
+        "1293"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 1293:2019",
+      "latency_ms": 4.74
+    },
+    {
+      "id": "RET-09",
+      "query": "Secondary lithium ion battery packs and power banks",
+      "targets": [
+        "16046"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 16046 (Part 1 & Part 2):2018",
+      "latency_ms": 8.11
+    },
+    {
+      "id": "RET-10",
+      "query": "Laptops desktop computers and servers safety",
+      "targets": [
+        "13252"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 13252 (Part 1):2010",
+      "latency_ms": 4.32
+    },
+    {
+      "id": "RET-11",
+      "query": "Children plastic and mechanical toys safety requirements",
+      "targets": [
+        "9873"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 9873 (Part 1 to 9)",
+      "latency_ms": 5.68
+    },
+    {
+      "id": "RET-12",
+      "query": "Ordinary Portland Cement 43 and 53 grade for construction",
+      "targets": [
+        "269"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 269:2015",
+      "latency_ms": 9.37
+    },
+    {
+      "id": "RET-13",
+      "query": "TMT steel rebar deformed bars Fe 500 for concrete reinforcement",
+      "targets": [
+        "1786"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 1786:2008",
+      "latency_ms": 12.68
+    },
+    {
+      "id": "RET-14",
+      "query": "Gold jewellery 22K 916 purity and HUID hallmarks",
+      "targets": [
+        "1417"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 1417:2016",
+      "latency_ms": 10.57
+    },
+    {
+      "id": "RET-15",
+      "query": "Silver ornaments 925 sterling silver hallmarking fineness",
+      "targets": [
+        "2112"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 2112:2014",
+      "latency_ms": 14.19
+    },
+    {
+      "id": "RET-16",
+      "query": "Electric dry iron and steam press household appliances",
+      "targets": [
+        "302"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 302 (Part 2/Sec 3):2007",
+      "latency_ms": 9.62
+    },
+    {
+      "id": "RET-17",
+      "query": "Emergency rechargeable LED lights and luminaires",
+      "targets": [
+        "10322"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 10322 (Part 5/Sec 8):2013",
+      "latency_ms": 5.36
+    },
+    {
+      "id": "RET-18",
+      "query": "Wireless Bluetooth earphones and headphones with microphone",
+      "targets": [
+        "616"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 616:2017",
+      "latency_ms": 7.46
+    },
+    {
+      "id": "RET-19",
+      "query": "Crystalline silicon solar photovoltaic modules and solar panels",
+      "targets": [
+        "14286"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 14286:2010",
+      "latency_ms": 8.8
+    },
+    {
+      "id": "RET-20",
+      "query": "Rooftop solar power converters and grid tied PV inverters",
+      "targets": [
+        "16221"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 16221 (Part 2):2015",
+      "latency_ms": 5.64
+    },
+    {
+      "id": "RET-21",
+      "query": "Room air conditioner split AC unit energy and safety",
+      "targets": [
+        "1391"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 1391 (Part 1 & 2):2017",
+      "latency_ms": 10.74
+    },
+    {
+      "id": "RET-22",
+      "query": "Domestic pressure cooker with pressure safety relief valve",
+      "targets": [
+        "2347"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 2347:2017",
+      "latency_ms": 9.34
+    },
+    {
+      "id": "RET-23",
+      "query": "LPG cooking gas cylinders low carbon welded steel",
+      "targets": [
+        "3196"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 3196 (Part 1):2013",
+      "latency_ms": 7.56
+    },
+    {
+      "id": "RET-24",
+      "query": "Self ballasted LED bulb retrofit B22 lamp",
+      "targets": [
+        "16102"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 16102 (Part 1 & 2):2012",
+      "latency_ms": 4.3
+    },
+    {
+      "id": "RET-25",
+      "query": "House wiring copper cables 1100V single core",
+      "targets": [
+        "694"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 694:2010",
+      "latency_ms": 4.65
+    },
+    {
+      "id": "RET-26",
+      "query": "Residual current operated circuit breakers RCCB for shock protection",
+      "targets": [
+        "12640"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 12640 (Part 1):2016",
+      "latency_ms": 8.38
+    },
+    {
+      "id": "RET-27",
+      "query": "HDPE pipes for potable water supply and agricultural irrigation",
+      "targets": [
+        "4984"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 4984:2016",
+      "latency_ms": 5.25
+    },
+    {
+      "id": "RET-28",
+      "query": "Industrial safety shoes with steel toe cap 200 Joules",
+      "targets": [
+        "15298"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 15298 (Part 2):2016",
+      "latency_ms": 9.04
+    },
+    {
+      "id": "RET-29",
+      "query": "Two wheeler helmet manufacturing standard batao",
+      "targets": [
+        "4151"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 4151:2020",
+      "latency_ms": 4.38
+    },
+    {
+      "id": "RET-30",
+      "query": "Packaged drinking water jar standard kya hai?",
+      "targets": [
+        "14543"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 14543:2016",
+      "latency_ms": 8.32
+    },
+    {
+      "id": "RET-31",
+      "query": "Gold jewellery 916 hallmark standard enna?",
+      "targets": [
+        "1417"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 1417:2016",
+      "latency_ms": 4.87
+    },
+    {
+      "id": "RET-32",
+      "query": "Pressure cooker bananeka mandatory standard",
+      "targets": [
+        "2347"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 2347:2017",
+      "latency_ms": 6.57
+    },
+    {
+      "id": "RET-33",
+      "query": "LED bulb specification standard enna details sollu",
+      "targets": [
+        "16102"
+      ],
+      "found_rank": 1,
+      "top_match": "IS 16102 (Part 1 & 2):2012",
+      "latency_ms": 10.16
+    }
+  ]
+}

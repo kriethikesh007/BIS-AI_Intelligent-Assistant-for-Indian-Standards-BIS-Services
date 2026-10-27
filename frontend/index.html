@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIS-AI: Intelligent Assistant for Indian Standards & BIS Services</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Top Institutional Notice -->
+  <div class="top-bar-notice d-flex justify-content-between align-items-center px-4">
+    <div>
+      <i class="bi bi-shield-fill-check text-warning me-1"></i>
+      <strong>Bureau of Indian Standards (BIS) AI System:</strong> Source-backed intelligence for MSMEs, Startups, Industries, Students, and Consumers.
+    </div>
+    <div class="d-flex align-items-center gap-2">
+      <span class="badge bg-secondary">Multilingual: English • हिन्दी • தமிழ்</span>
+      <span id="global-db-badge" class="badge bg-success"><i class="bi bi-database-check me-1"></i>Online</span>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <header class="bis-header shadow-sm">
+    <div class="container-fluid px-4 py-2">
+      <div class="d-flex flex-wrap align-items-center justify-content-between">
+        <a href="#home" onclick="navigateTo('home')" class="d-flex align-items-center text-white text-decoration-none">
+          <i class="bi bi-shield-check text-warning fs-2 me-2"></i>
+          <div>
+            <div class="bis-brand-logo">BIS-AI</div>
+            <div class="small text-white-50" style="font-size: 0.72rem; margin-top: -4px;">INTELLIGENT STANDARDS ASSISTANT</div>
+          </div>
+          <span class="bis-badge-gov ms-2 d-none d-md-inline">GOV OF INDIA STANDARDS</span>
+        </a>
+
+        <!-- Navigation Links for 10 Pages -->
+        <nav class="d-flex flex-wrap align-items-center gap-1 mt-2 mt-lg-0">
+          <a class="nav-link bis-nav active" href="#home" onclick="navigateTo('home')"><i class="bi bi-house-door me-1"></i>Home</a>
+          <a class="nav-link bis-nav" href="#assistant" onclick="navigateTo('assistant')"><i class="bi bi-robot me-1"></i>AI Assistant</a>
+          <a class="nav-link bis-nav" href="#find-standard" onclick="navigateTo('find-standard')"><i class="bi bi-cpu me-1"></i>Find Indian Standard</a>
+          <a class="nav-link bis-nav" href="#certification" onclick="navigateTo('certification')"><i class="bi bi-award me-1"></i>Certification Guide</a>
+          <a class="nav-link bis-nav" href="#hallmarking" onclick="navigateTo('hallmarking')"><i class="bi bi-gem me-1"></i>Hallmarking</a>
+          <a class="nav-link bis-nav" href="#laboratories" onclick="navigateTo('laboratories')"><i class="bi bi-building-gear me-1"></i>Find Laboratory</a>
+          <a class="nav-link bis-nav" href="#consumer" onclick="navigateTo('consumer')"><i class="bi bi-person-check me-1"></i>Consumer Help</a>
+          <a class="nav-link bis-nav" href="#search" onclick="navigateTo('search')"><i class="bi bi-search me-1"></i>Search Standards</a>
+          <a class="nav-link bis-nav" href="#admin" onclick="navigateTo('admin')"><i class="bi bi-gear-fill me-1"></i>Admin Dashboard</a>
+          <a class="nav-link bis-nav" href="#analytics" onclick="navigateTo('analytics')"><i class="bi bi-graph-up me-1"></i>ML Analytics</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Multi-Page Container -->
+  <main class="container-fluid px-4 py-4 flex-grow-1">
+
+    <!-- PAGE 1: HOME -->
+    <section id="page-home" class="page-view active-view">
+      <div class="p-5 mb-4 rounded-3 text-white" style="background: linear-gradient(135deg, #091e36 0%, #154378 100%); border-left: 6px solid var(--bis-gold);">
+        <div class="container-fluid py-2">
+          <h1 class="display-5 fw-bold mb-3">Welcome to BIS-AI</h1>
+          <p class="col-md-9 fs-5 text-light opacity-90">
+            An authoritative AI-powered assistant for Indian Standards, BIS certification schemes, laboratory discovery, precious metals hallmarking, and consumer protection under the BIS Act 2016.
+          </p>
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <button class="btn btn-warning px-4 py-2 fw-bold text-dark" onclick="navigateTo('assistant')">
+              <i class="bi bi-chat-dots-fill me-2"></i>Open AI Assistant
+            </button>
+            <button class="btn btn-outline-light px-4 py-2 fw-semibold" onclick="navigateTo('find-standard')">
+              <i class="bi bi-magic me-2"></i>Recommend Standards from Product Description
+            </button>
+            <button class="btn btn-outline-light px-4 py-2 fw-semibold" onclick="navigateTo('search')">
+              <i class="bi bi-book me-2"></i>Browse Standards Catalog
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mb-4">
+        <div class="col-md-4">
+          <div class="card h-100 p-3 standard-card">
+            <div class="d-flex align-items-center mb-2">
+              <div class="p-2 bg-primary bg-opacity-10 text-primary rounded me-3"><i class="bi bi-shield-check fs-4"></i></div>
+              <h5 class="fw-bold mb-0">Indian Standards Q&A</h5>
+            </div>
+            <p class="text-muted small">Access exact clauses, testing specifications, and mandatory vs voluntary statuses for civil, mechanical, chemical, and electrotechnical goods.</p>
+            <a href="#search" onclick="navigateTo('search')" class="text-decoration-none fw-semibold small mt-auto">Explore Standards &rarr;</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-3 standard-card">
+            <div class="d-flex align-items-center mb-2">
+              <div class="p-2 bg-success bg-opacity-10 text-success rounded me-3"><i class="bi bi-award fs-4"></i></div>
+              <h5 class="fw-bold mb-0">Certification Schemes</h5>
+            </div>
+            <p class="text-muted small">Understand Scheme I (ISI Mark), Scheme II (CRS), FMCS, and fee concessions for MSMEs, DPIIT Startups, and Women entrepreneurs.</p>
+            <a href="#certification" onclick="navigateTo('certification')" class="text-decoration-none fw-semibold small mt-auto text-success">Read Certification Guide &rarr;</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-3 standard-card">
+            <div class="d-flex align-items-center mb-2">
+              <div class="p-2 bg-warning bg-opacity-10 text-warning rounded me-3"><i class="bi bi-gem fs-4"></i></div>
+              <h5 class="fw-bold mb-0">Gold & Silver Hallmarking</h5>
+            </div>
+            <p class="text-muted small">Verify purity fineness (22K916, 18K750) and learn how to validate 6-digit alphanumeric HUID codes on the official BIS CARE app.</p>
+            <a href="#hallmarking" onclick="navigateTo('hallmarking')" class="text-decoration-none fw-semibold small mt-auto text-warning">Hallmarking Rules &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 2: AI ASSISTANT -->
+    <section id="page-assistant" class="page-view">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="chat-window">
+            <div class="chat-history" id="chatHistory">
+              <!-- Welcome Bubble -->
+              <div class="chat-bubble chat-bubble-assistant">
+                <div class="fw-bold text-primary mb-1"><i class="bi bi-robot me-1"></i>BIS-AI Assistant</div>
+                <p class="mb-2">Namaste! I am your AI assistant for Indian Standards and BIS services. Every response follows a transparent 8-step verification pipeline with complete source and clause citations.</p>
+                <div class="stepper-pipeline">
+                  <span class="step-chip">Query</span><span class="step-arrow">&rarr;</span>
+                  <span class="step-chip">Language</span><span class="step-arrow">&rarr;</span>
+                  <span class="step-chip">Intent</span><span class="step-arrow">&rarr;</span>
+                  <span class="step-chip">Answer</span><span class="step-arrow">&rarr;</span>
+                  <span class="step-chip">Standards</span><span class="step-arrow">&rarr;</span>
+                  <span class="step-chip">Evidence</span><span class="step-arrow">&rarr;</span>
+                  <span class="step-chip">Source</span><span class="step-arrow">&rarr;</span>
+                  <span class="step-chip">Reference</span><span class="step-arrow">&rarr;</span>
+                  <span class="step-chip">Confidence</span>
+                </div>
+                <div class="small text-muted">Supports English, हिन्दी (Hindi), and தமிழ் (Tamil).</div>
+              </div>
+            </div>
+
+            <!-- Chat Input Controls -->
+            <div class="p-3 border-top bg-light">
+              <div class="d-flex align-items-center mb-2">
+                <label for="chatLanguageSelect" class="form-label small text-muted mb-0 me-2">
+                  <i class="bi bi-translate text-primary me-1"></i>Language:
+                </label>
+                <select id="chatLanguageSelect" class="form-select form-select-sm w-auto">
+                  <option value="auto" selected>Auto-detect (English / हिन्दी / தமிழ் / Hinglish / Tanglish)</option>
+                  <option value="en">English</option>
+                  <option value="hi">हिन्दी (Hindi)</option>
+                  <option value="ta">தமிழ் (Tamil)</option>
+                </select>
+              </div>
+              <div class="input-group">
+                <input type="text" id="chatInput" class="form-control" placeholder="Ask e.g. 'Which standard applies to helmets?' or 'What is HUID in gold?'" onkeypress="if(event.key==='Enter') sendChatMessage()">
+                <button class="btn btn-primary px-4 fw-semibold" id="chatSendBtn" onclick="sendChatMessage()">
+                  <i class="bi bi-send-fill me-1"></i>Send
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Assistant Query Shortcuts & Info -->
+        <div class="col-lg-4">
+          <div class="card p-3 standard-card mb-3">
+            <h6 class="fw-bold mb-2"><i class="bi bi-lightning-charge-fill text-warning me-1"></i>Quick Inquiries</h6>
+            <div class="d-grid gap-2">
+              <button class="btn btn-sm btn-outline-secondary text-start" onclick="setAssistantPrompt('What standard applies to packaged drinking water?')">
+                <i class="bi bi-droplet-half text-primary me-1"></i> Packaged Drinking Water (IS 14543)
+              </button>
+              <button class="btn btn-sm btn-outline-secondary text-start" onclick="setAssistantPrompt('Which Indian standard applies to two wheeler motorcycle helmets?')">
+                <i class="bi bi-shield-shaded text-danger me-1"></i> Motorcycle Helmets (IS 4151)
+              </button>
+              <button class="btn btn-sm btn-outline-secondary text-start" onclick="setAssistantPrompt('What is HUID in gold jewellery and how to verify purity?')">
+                <i class="bi bi-gem text-warning me-1"></i> Gold Hallmarking & HUID
+              </button>
+              <button class="btn btn-sm btn-outline-secondary text-start" onclick="setAssistantPrompt('How do I apply for ISI mark license under Scheme 1?')">
+                <i class="bi bi-file-check text-success me-1"></i> Scheme I ISI Mark Procedure
+              </button>
+              <button class="btn btn-sm btn-outline-secondary text-start" onclick="setAssistantPrompt('Where is the BIS Central Laboratory located and what does it test?')">
+                <i class="bi bi-building text-info me-1"></i> BIS Central Laboratory
+              </button>
+              <button class="btn btn-sm btn-outline-secondary text-start" onclick="setAssistantPrompt('पानी की बोतल के लिए कौन सा भारतीय मानक लागू होता है?')">
+                <i class="bi bi-translate text-success me-1"></i> [हिन्दी] पानी की बोतल मानक
+              </button>
+              <button class="btn btn-sm btn-outline-secondary text-start" onclick="setAssistantPrompt('தங்க நகைகளுக்கான ஹால்மார்க் விதிகள் என்ன?')">
+                <i class="bi bi-translate text-danger me-1"></i> [தமிழ்] தங்க நகை ஹால்மார்க்
+              </button>
+            </div>
+          </div>
+
+          <div class="card p-3 standard-card">
+            <h6 class="fw-bold mb-1"><i class="bi bi-info-circle-fill text-primary me-1"></i>Strict Guardrail Guarantee</h6>
+            <p class="small text-muted mb-0">If verified evidence is unavailable in the knowledge base, the assistant returns: <em>"I could not find sufficient authoritative BIS information to answer this question reliably."</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 3: FIND INDIAN STANDARD -->
+    <section id="page-find-standard" class="page-view">
+      <div class="card p-4 standard-card mb-4">
+        <h4 class="fw-bold mb-1 text-primary"><i class="bi bi-magic me-2"></i>Product-to-Standard Recommendation Engine</h4>
+        <p class="text-muted small mb-3">Input your natural-language product description. The engine extracts products, categories, keywords, and technical terms, then ranks candidate standards using the formula: <code>final_score = 0.35 * tfidf + 0.35 * semantic + 0.20 * keyword + 0.10 * category</code>.</p>
+        <div class="input-group mb-2">
+          <input type="text" id="recProductInput" class="form-control form-control-lg" placeholder="e.g. 'I manufacture rechargeable LED emergency lights.'" value="I manufacture rechargeable LED emergency lights.">
+          <button class="btn btn-primary px-4 fw-semibold" onclick="runProductRecommendation()">
+            <i class="bi bi-search me-1"></i>Recommend Standards
+          </button>
+        </div>
+      </div>
+
+      <!-- Analysis Breakdown Display -->
+      <div id="recAnalysisBox" class="d-none mb-4">
+        <div class="card p-3 standard-card bg-light">
+          <h6 class="fw-bold mb-2"><i class="bi bi-cpu text-info me-1"></i>Natural Language Extraction Analysis</h6>
+          <div class="row small g-2" id="recAnalysisContent"></div>
+        </div>
+      </div>
+
+      <!-- Top 5 Recommendations Container -->
+      <div id="recResultsContainer" class="row g-3">
+        <div class="col-12 text-center text-muted py-4">Click "Recommend Standards" to analyze.</div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: CERTIFICATION GUIDE -->
+    <section id="page-certification" class="page-view">
+      <div class="card p-3 standard-card mb-3">
+        <h4 class="fw-bold text-primary mb-1"><i class="bi bi-award-fill text-warning me-2"></i>BIS Certification Schemes & Procedures</h4>
+        <p class="text-muted small mb-0">Comprehensive procedural guide for domestic manufacturers, MSMEs, startups, foreign manufacturers, and management systems.</p>
+      </div>
+      <div class="row g-3" id="schemesListContainer">
+        <div class="col-12 text-center py-4 text-muted">Loading certification schemes...</div>
+      </div>
+    </section>
+
+    <!-- PAGE 5: HALLMARKING -->
+    <section id="page-hallmarking" class="page-view">
+      <div class="card p-4 standard-card mb-4" style="border-left: 5px solid var(--bis-gold);">
+        <h4 class="fw-bold text-dark mb-1"><i class="bi bi-gem text-warning me-2"></i>Gold & Silver Hallmarking System</h4>
+        <p class="text-muted small mb-3">The Hallmarking Scheme protects consumers against adulteration. Gold jewellery hallmarking is mandatory in notified districts under the BIS Act 2016.</p>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="p-3 bg-light rounded text-center border">
+              <i class="bi bi-triangle-fill text-primary fs-3 mb-2"></i>
+              <div class="fw-bold">1. BIS Standard Logo</div>
+              <div class="small text-muted">The triangular BIS mark of quality.</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-3 bg-light rounded text-center border">
+              <i class="bi bi-award-fill text-warning fs-3 mb-2"></i>
+              <div class="fw-bold">2. Purity & Fineness</div>
+              <div class="small text-muted">22K916, 18K750, 14K585 karat grades.</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-3 bg-light rounded text-center border">
+              <i class="bi bi-qr-code text-success fs-3 mb-2"></i>
+              <div class="fw-bold">3. 6-Digit HUID</div>
+              <div class="small text-muted">Unique laser identifier verifiable via BIS CARE.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="hallmarkingDetailsContainer" class="row g-3"></div>
+    </section>
+
+    <!-- PAGE 6: FIND LABORATORY -->
+    <section id="page-laboratories" class="page-view">
+      <div class="card p-3 standard-card mb-3">
+        <div class="row g-2 align-items-center">
+          <div class="col-md-6">
+            <h4 class="fw-bold text-primary mb-0"><i class="bi bi-building-gear me-2"></i>Testing Laboratory Directory</h4>
+          </div>
+          <div class="col-md-6 d-flex gap-2">
+            <input type="text" id="labFilterInput" class="form-control" placeholder="Search by city, discipline, or tested product..." onkeyup="filterLaboratoriesList()">
+          </div>
+        </div>
+      </div>
+      <div class="row g-3" id="labsListContainer">
+        <div class="col-12 text-center py-4 text-muted">Loading laboratories...</div>
+      </div>
+    </section>
+
+    <!-- PAGE 7: CONSUMER HELP -->
+    <section id="page-consumer" class="page-view">
+      <div class="card p-3 standard-card mb-3">
+        <h4 class="fw-bold text-primary mb-1"><i class="bi bi-person-check-fill text-success me-2"></i>Consumer Help & Grievance Redressal</h4>
+        <p class="text-muted small mb-0">Official guidance on verifying CML licence numbers, identifying counterfeit marks, and reporting violations.</p>
+      </div>
+      <div class="row g-3" id="consumerFaqContainer">
+        <div class="col-12 text-center py-4 text-muted">Loading consumer FAQs...</div>
+      </div>
+    </section>
+
+    <!-- PAGE 8: SEARCH STANDARDS CATALOG -->
+    <section id="page-search" class="page-view">
+      <div class="card p-3 standard-card mb-3">
+        <div class="row g-2 align-items-center">
+          <div class="col-md-6">
+            <h4 class="fw-bold text-primary mb-0"><i class="bi bi-book-half me-2"></i>Search Official Indian Standards</h4>
+          </div>
+          <div class="col-md-6">
+            <input type="text" id="catalogSearchInput" class="form-control" placeholder="Search by standard number (e.g. IS 4151) or product..." onkeyup="filterCatalogTable()">
+          </div>
+        </div>
+      </div>
+      <div class="card standard-card p-0 overflow-hidden">
+        <div class="table-responsive">
+          <table class="table table-hover align-middle mb-0" id="catalogTable">
+            <thead class="table-light">
+              <tr>
+                <th>Standard Code</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Status</th>
+                <th>Scheme</th>
+                <th>Document & Clause</th>
+              </tr>
+            </thead>
+            <tbody id="catalogTableBody">
+              <tr><td colspan="6" class="text-center py-4 text-muted">Loading standards catalog...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 9: ADMIN DASHBOARD -->
+    <section id="page-admin" class="page-view">
+      <!-- Admin Header & Authentication Bar -->
+      <div class="card p-3 standard-card mb-4" style="border-left: 5px solid var(--bis-gold);">
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
+          <div>
+            <h4 class="fw-bold text-primary mb-0">
+              <i class="bi bi-shield-lock-fill me-2 text-danger"></i>Administrative Intelligence Dashboard
+            </h4>
+            <div class="small text-muted">Authorized BIS administration, ML telemetry, knowledge operations & audit controls.</div>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <span class="badge bg-secondary" id="adminAuthBadge"><i class="bi bi-key-fill me-1"></i>Protected API</span>
+            <input type="password" id="adminApiKeyInput" class="form-control form-control-sm" placeholder="Admin API Key" value="bis_admin_secret_key_2026" style="width: 230px;">
+            <button class="btn btn-sm btn-primary fw-semibold" onclick="loadAdminAnalytics()">
+              <i class="bi bi-arrow-clockwise me-1"></i>Authenticate & Refresh
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1. Knowledge Base Inventory Metric Cards -->
+      <h6 class="fw-bold text-dark mb-2"><i class="bi bi-database-check text-primary me-1"></i>Knowledge Base Inventory</h6>
+      <div class="row g-3 mb-4">
+        <div class="col-md-2 col-6">
+          <div class="metric-box">
+            <div class="text-muted small fw-bold">STANDARDS</div>
+            <div class="metric-big text-primary" id="admin-count-standards">--</div>
+            <div class="small text-muted">Indian Standards</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="metric-box">
+            <div class="text-muted small fw-bold">CERTIFICATION</div>
+            <div class="metric-big text-success" id="admin-count-schemes">--</div>
+            <div class="small text-muted">Schemes & FMCS</div>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="metric-box">
+            <div class="text-muted small fw-bold">LABORATORIES</div>
+            <div class="metric-big text-info" id="admin-count-labs">--</div>
+            <div class="small text-muted">Testing Centers</div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="metric-box">
+            <div class="text-muted small fw-bold">HALLMARKING</div>
+            <div class="metric-big text-warning" id="admin-count-hallmarking">--</div>
+            <div class="small text-muted">Gold/Silver & HUID</div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="metric-box">
+            <div class="text-muted small fw-bold">FAQS & GRIEVANCES</div>
+            <div class="metric-big text-secondary" id="admin-count-faqs">--</div>
+            <div class="small text-muted">Consumer Records</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. ML & Retrieval Statistics Rows -->
+      <div class="row g-4 mb-4">
+        <!-- Machine Learning Statistics -->
+        <div class="col-lg-6">
+          <div class="card p-3 standard-card h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2 pb-1 border-bottom">
+              <h5 class="fw-bold text-dark mb-0"><i class="bi bi-cpu-fill text-primary me-2"></i>Machine Learning Ensemble Statistics</h5>
+              <span class="badge bg-primary" id="admin-ml-best-model">Voting Ensemble</span>
+            </div>
+            
+            <div class="row g-2 text-center my-2">
+              <div class="col-3">
+                <div class="p-2 bg-light rounded border">
+                  <div class="small text-muted" style="font-size: 0.72rem;">ACCURACY</div>
+                  <div class="fw-bold text-primary" id="admin-ml-acc">93.5%</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="p-2 bg-light rounded border">
+                  <div class="small text-muted" style="font-size: 0.72rem;">PRECISION</div>
+                  <div class="fw-bold text-success" id="admin-ml-prec">93.9%</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="p-2 bg-light rounded border">
+                  <div class="small text-muted" style="font-size: 0.72rem;">RECALL</div>
+                  <div class="fw-bold text-warning" id="admin-ml-rec">93.5%</div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="p-2 bg-light rounded border">
+                  <div class="small text-muted" style="font-size: 0.72rem;">F1-SCORE</div>
+                  <div class="fw-bold text-info" id="admin-ml-f1">93.6%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between small text-muted mb-2 px-1">
+              <span><strong>Training Samples:</strong> <span id="admin-ml-train-samples">88</span></span>
+              <span><strong>Test Split (20%):</strong> <span id="admin-ml-test-samples">22</span></span>
+              <span><strong>Intent Classes:</strong> 8 Classes</span>
+            </div>
+
+            <!-- Ensemble Performance Table -->
+            <div class="table-responsive mt-auto">
+              <table class="table table-sm table-bordered small text-center mb-2" id="adminEnsemblePerfTable">
+                <thead class="table-light">
+                  <tr><th>Model</th><th>Accuracy</th><th>Weighted F1</th><th>Status</th></tr>
+                </thead>
+                <tbody id="adminEnsemblePerfBody">
+                  <tr><td colspan="4" class="text-muted">Loading ensemble performance...</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="d-flex gap-2">
+              <button class="btn btn-sm btn-outline-primary w-50" onclick="viewDetailedMetricsModal()">
+                <i class="bi bi-graph-up me-1"></i>View Full Model Metrics
+              </button>
+              <button class="btn btn-sm btn-warning fw-bold w-50 text-dark" id="adminRetrainBtn" onclick="triggerAdminRetrain()">
+                <i class="bi bi-arrow-repeat me-1"></i>Retrain Ensemble
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Retrieval & Telemetry Statistics -->
+        <div class="col-lg-6">
+          <div class="card p-3 standard-card h-100">
+            <div class="d-flex justify-content-between align-items-center mb-2 pb-1 border-bottom">
+              <h5 class="fw-bold text-dark mb-0"><i class="bi bi-sliders text-success me-2"></i>Information Retrieval Telemetry</h5>
+              <button class="btn btn-sm btn-outline-success" id="adminRebuildBtn" onclick="triggerAdminRebuildIndex()">
+                <i class="bi bi-gear-wide-connected me-1"></i>Rebuild Search Index
+              </button>
+            </div>
+
+            <div class="row g-2 text-center my-2">
+              <div class="col-4">
+                <div class="p-2 bg-light rounded border">
+                  <div class="small text-muted" style="font-size: 0.72rem;">TOTAL QUERIES</div>
+                  <div class="fw-bold text-dark fs-5" id="admin-ret-queries">0</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="p-2 bg-success bg-opacity-10 rounded border border-success">
+                  <div class="small text-success" style="font-size: 0.72rem;">SUCCESSFUL</div>
+                  <div class="fw-bold text-success fs-5" id="admin-ret-success">0</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="p-2 bg-warning bg-opacity-10 rounded border border-warning">
+                  <div class="small text-warning" style="font-size: 0.72rem;">LOW CONFIDENCE</div>
+                  <div class="fw-bold text-dark fs-5" id="admin-ret-lowconf">0</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Top Requested Categories -->
+            <div class="mb-2">
+              <div class="small fw-semibold text-secondary mb-1">Top Requested Categories & Intent Distribution:</div>
+              <div id="adminTopCategoriesContainer" class="d-flex flex-wrap gap-1">
+                <span class="text-muted small">No queries logged yet.</span>
+              </div>
+            </div>
+
+            <!-- Recent Query Audit Log -->
+            <div class="small fw-semibold text-secondary mb-1">Recent Query Audit Trail:</div>
+            <div class="table-responsive overflow-auto border rounded bg-light" style="max-height: 140px;">
+              <table class="table table-sm table-hover small mb-0" id="adminAuditLogTable">
+                <thead class="table-light"><tr><th>Time</th><th>Query</th><th>Intent</th><th>Score</th></tr></thead>
+                <tbody id="adminAuditLogBody"><tr><td colspan="4" class="text-center text-muted">No audit records.</td></tr></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Knowledge Operations (Add / Update / Delete) -->
+      <div class="card p-4 standard-card">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5 class="fw-bold text-dark mb-0"><i class="bi bi-pencil-square text-info me-2"></i>Knowledge Operations (Add, Update, Delete)</h5>
+          <ul class="nav nav-pills" id="adminKnowledgeTabs">
+            <li class="nav-item">
+              <button class="nav-link active py-1 px-3 small fw-semibold" id="tabAddBtn" onclick="switchAdminTab('add')">
+                <i class="bi bi-plus-circle me-1"></i>Add Knowledge
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link py-1 px-3 small fw-semibold" id="tabManageBtn" onclick="switchAdminTab('manage')">
+                <i class="bi bi-pencil me-1"></i>Manage / Update / Delete
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tab A: Add Knowledge -->
+        <div id="adminTabAddContent">
+          <form id="adminIngestForm" onsubmit="event.preventDefault(); submitAdminKnowledge();">
+            <div class="row g-3">
+              <div class="col-md-4">
+                <label class="form-label small fw-semibold">Target Collection *</label>
+                <select id="adminTargetCollection" class="form-select form-select-sm" onchange="toggleAdminFormFields()">
+                  <option value="standards">Indian Standards (standards)</option>
+                  <option value="schemes">Certification Schemes (schemes)</option>
+                  <option value="laboratories">Testing Laboratories (laboratories)</option>
+                  <option value="faqs">Consumer FAQs (faqs)</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label class="form-label small fw-semibold">Standard Code / Identifier *</label>
+                <input type="text" id="adminStdCode" class="form-control form-control-sm" placeholder="e.g. IS 16221:2016" required>
+              </div>
+              <div class="col-md-4">
+                <label class="form-label small fw-semibold">Title / Subject *</label>
+                <input type="text" id="adminTitle" class="form-control form-control-sm" placeholder="e.g. Solar PV Inverters - Safety" required>
+              </div>
+              <div class="col-md-4">
+                <label class="form-label small fw-semibold">Category *</label>
+                <input type="text" id="adminCategory" class="form-control form-control-sm" placeholder="e.g. Solar Energy" required>
+              </div>
+              <div class="col-md-4">
+                <label class="form-label small fw-semibold">Certification Scheme *</label>
+                <input type="text" id="adminScheme" class="form-control form-control-sm" placeholder="e.g. Scheme II (CRS)" required>
+              </div>
+              <div class="col-md-4">
+                <label class="form-label small fw-semibold">Mandatory Status</label>
+                <select id="adminMandatoryStatus" class="form-select form-select-sm">
+                  <option value="Mandatory">Mandatory</option>
+                  <option value="Voluntary">Voluntary</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small fw-semibold">Product Description *</label>
+                <input type="text" id="adminProduct" class="form-control form-control-sm" placeholder="e.g. Grid-connected solar power inverters" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small fw-semibold">Testing Requirements</label>
+                <input type="text" id="adminTesting" class="form-control form-control-sm" placeholder="e.g. High temperature endurance, anti-islanding test">
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-success fw-semibold">
+                  <i class="bi bi-cloud-arrow-up-fill me-1"></i>Add Knowledge & Rebuild Index
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Tab B: Manage / Update / Delete Knowledge -->
+        <div id="adminTabManageContent" class="d-none">
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <div class="small text-muted">Select an existing knowledge record to update or delete:</div>
+            <input type="text" id="adminManageSearch" class="form-control form-control-sm w-25" placeholder="Filter records..." onkeyup="filterAdminManageTable()">
+          </div>
+          <div class="table-responsive overflow-auto border rounded" style="max-height: 280px;">
+            <table class="table table-sm table-hover align-middle small mb-0" id="adminManageTable">
+              <thead class="table-light">
+                <tr><th>Code / ID</th><th>Title</th><th>Category</th><th>Scheme</th><th>Actions</th></tr>
+              </thead>
+              <tbody id="adminManageBody">
+                <tr><td colspan="5" class="text-center py-3 text-muted">Loading manageable records...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 10: ML ANALYTICS -->
+    <section id="page-analytics" class="page-view">
+      <div class="row g-3 mb-4">
+        <div class="col-md-3">
+          <div class="metric-box">
+            <div class="text-muted small fw-bold">ENSEMBLE ACCURACY</div>
+            <div class="metric-big text-primary" id="analytics-accuracy">68.2%</div>
+            <div class="small text-success">VotingClassifier</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="metric-box">
+            <div class="text-muted small fw-bold">WEIGHTED PRECISION</div>
+            <div class="metric-big text-success" id="analytics-precision">75.4%</div>
+            <div class="small text-muted">Stratified Test Set</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="metric-box">
+            <div class="text-muted small fw-bold">WEIGHTED RECALL</div>
+            <div class="metric-big text-warning" id="analytics-recall">68.2%</div>
+            <div class="small text-muted">Stratified Test Set</div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="metric-box">
+            <div class="text-muted small fw-bold">WEIGHTED F1-SCORE</div>
+            <div class="metric-big text-info" id="analytics-f1">68.2%</div>
+            <div class="small text-primary">Harmonic Mean</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mb-4">
+        <div class="col-lg-6">
+          <div class="card p-3 standard-card">
+            <h6 class="fw-bold mb-3"><i class="bi bi-bar-chart-fill text-primary me-1"></i>Ensemble vs Individual Models Accuracy</h6>
+            <div style="height: 280px;">
+              <canvas id="ensembleComparisonChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card p-3 standard-card">
+            <h6 class="fw-bold mb-3"><i class="bi bi-table text-info me-1"></i>Ensemble Benchmark Comparison</h6>
+            <div class="table-responsive">
+              <table class="table table-sm table-bordered small mb-0" id="modelsBenchmarkTable">
+                <thead class="table-light">
+                  <tr><th>Model</th><th>Accuracy</th><th>Precision</th><th>Recall</th><th>Macro F1</th><th>Weighted F1</th></tr>
+                </thead>
+                <tbody id="modelsBenchmarkBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Confusion Matrix Display -->
+      <div class="card p-3 standard-card">
+        <h6 class="fw-bold mb-2"><i class="bi bi-grid-3x3-gap-fill text-secondary me-1"></i>Confusion Matrix (Test Evaluation)</h6>
+        <div id="analyticsCmContainer" class="table-responsive"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Admin Edit Knowledge Modal -->
+  <div class="modal fade" id="adminEditModal" tabindex="-1" aria-labelledby="adminEditModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white py-2">
+          <h6 class="modal-title fw-bold" id="adminEditModalLabel">
+            <i class="bi bi-pencil-square me-2"></i>Update Knowledge Record
+          </h6>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="adminEditForm" onsubmit="event.preventDefault(); submitAdminUpdateKnowledge();">
+            <input type="hidden" id="editRecordId">
+            <input type="hidden" id="editCollection" value="standards">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label small fw-semibold">Standard Code / Identifier</label>
+                <input type="text" id="editStdCode" class="form-control form-control-sm" readonly>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small fw-semibold">Title / Subject *</label>
+                <input type="text" id="editTitle" class="form-control form-control-sm" required>
+              </div>
+              <div class="col-md-4">
+                <label class="form-label small fw-semibold">Category *</label>
+                <input type="text" id="editCategory" class="form-control form-control-sm" required>
+              </div>
+              <div class="col-md-4">
+                <label class="form-label small fw-semibold">Certification Scheme *</label>
+                <input type="text" id="editScheme" class="form-control form-control-sm" required>
+              </div>
+              <div class="col-md-4">
+                <label class="form-label small fw-semibold">Mandatory Status</label>
+                <select id="editMandatoryStatus" class="form-select form-select-sm">
+                  <option value="Mandatory">Mandatory</option>
+                  <option value="Voluntary">Voluntary</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small fw-semibold">Product Description *</label>
+                <input type="text" id="editProduct" class="form-control form-control-sm" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small fw-semibold">Testing Requirements</label>
+                <input type="text" id="editTesting" class="form-control form-control-sm">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small fw-semibold">Source Document</label>
+                <input type="text" id="editSourceDoc" class="form-control form-control-sm">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small fw-semibold">Reference Clause</label>
+                <input type="text" id="editClause" class="form-control form-control-sm">
+              </div>
+              <div class="col-12 text-end mt-3">
+                <button type="button" class="btn btn-sm btn-secondary me-2" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-sm btn-primary fw-semibold" id="btnSaveEdit">
+                  <i class="bi bi-save me-1"></i>Save Changes & Rebuild Index
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Institutional Footer -->
+  <footer class="bis-footer">
+    <div class="container-fluid px-4 text-center">
+      <div><strong>BIS-AI Platform:</strong> Developed under Government of India Indian Standards Framework.</div>
+      <div class="text-white-50 mt-1 small">Authorized Sources: Bureau of Indian Standards (bis.gov.in) &bull; Compulsory Registration Scheme (crsbis.in) &bull; BIS CARE Portal</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Application Client JS -->
+  <script src="/js/app.js"></script>
+</body>
+</html>

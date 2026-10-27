@@ -1,0 +1,64 @@
+{
+  "pipeline_status": "SUCCESS",
+  "datasets_processed": {
+    "standards.csv": {
+      "valid": true,
+      "records": 13,
+      "duplicates_removed": 0,
+      "missing_values_imputed": 0
+    },
+    "certification.csv": {
+      "valid": true,
+      "records": 4,
+      "duplicates_removed": 0,
+      "missing_values_imputed": 0
+    },
+    "hallmarking.csv": {
+      "valid": true,
+      "records": 3,
+      "duplicates_removed": 0,
+      "missing_values_imputed": 0
+    },
+    "laboratories.csv": {
+      "valid": true,
+      "records": 5,
+      "duplicates_removed": 0,
+      "missing_values_imputed": 0
+    },
+    "consumer_faq.csv": {
+      "valid": true,
+      "records": 4,
+      "duplicates_removed": 0,
+      "missing_values_imputed": 0
+    },
+    "schemes.csv": {
+      "valid": true,
+      "records": 5,
+      "duplicates_removed": 0,
+      "missing_values_imputed": 0
+    },
+    "standard_products.csv": {
+      "valid": true,
+      "records": 10,
+      "duplicates_removed": 0,
+      "missing_values_imputed": 0
+    },
+    "intent_dataset.csv": {
+      "valid": true,
+      "records": 108,
+      "duplicates_removed": 0,
+      "missing_values_imputed": 0
+    }
+  },
+  "summary_metrics": {
+    "total_records": 152,
+    "total_duplicates_removed": 0,
+    "total_missing_values_handled": 0,
+    "number_of_standards": 13,
+    "number_of_categories": 39,
+    "number_of_certification_schemes": 5,
+    "number_of_laboratory_records": 5,
+    "number_of_training_examples": 108
+  },
+  "sample_data_notice": "All benchmark records are explicitly labelled as 'SAMPLE DATA'. Authorized BIS requirements must not be fabricated."
+}

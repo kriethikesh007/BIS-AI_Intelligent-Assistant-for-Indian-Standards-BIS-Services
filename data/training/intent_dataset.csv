@@ -1,0 +1,198 @@
+id,query_text,intent,category,expected_standard,language,sample_data_flag
+TRAIN-001,Which Indian standard applies to packaged drinking water bottles?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-002,What standard should I follow for manufacturing motorcycle helmets?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-003,Recommend the standard for 16A electric plug and wall socket outlets.,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-004,Which BIS specification is used for mobile phone lithium-ion batteries?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-005,Which standard applies to laptop computer safety requirements?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-006,What is the standard for plastic and mechanical toys safety?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-007,Which standard should be used for OPC 53 grade cement manufacturing?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-008,What is the Indian standard for TMT steel rebars in concrete construction?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-009,What standard governs gold jewellery fineness and purity?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-010,Which standard is for electric iron household appliances?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-011,What is the specification standard for tap water and potable water?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-012,Which standard covers 925 sterling silver purity marking?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-013,Suggest the applicable standard code for power banks and battery cells.,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-014,Which Indian standard do I need to manufacture safety helmets?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-015,What standard applies to 20 litre water jars?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-016,Recommend the relevant standard for steel rods and deformed bars.,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-017,Which standard is required for domestic electric switches and plugs?,STANDARD_RECOMMENDATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-018,Explain the scope and clauses of IS 14543:2016 for drinking water.,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-019,What are the testing parameters in IS 4151 for two wheeler helmets?,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-020,Can you give me details of IS 1293 electrical socket requirements?,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-021,What does IS 16046 specify for rechargeable battery cells?,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-022,Explain the chemical and physical requirements under IS 269 cement standard.,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-023,What are the yield stress requirements in IS 1786 steel standard?,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-024,What are the fineness grades in IS 1417 gold standard?,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-025,What is covered under IS 10500 potable water quality limits?,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-026,Tell me about IS 9873 heavy metal element migration limits in toys.,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-027,Provide details on IS 302-2-3 safety standards for electric irons.,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-028,What are the specific clauses and requirements in standard IS 14543?,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-029,Give me information on standard IS 4151 impact test criteria.,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-030,Tell me about the technical requirements of IS 16046 Part 2.,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-031,What are the physical test limits specified in IS 269:2015?,STANDARD_INFORMATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-032,How do I apply for an ISI mark licence under Scheme I?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-033,What is Scheme II Compulsory Registration Scheme (CRS) for electronics?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-034,Explain the Foreign Manufacturers Certification Scheme (FMCS) process.,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-035,What are the factory inspection steps for obtaining a BIS licence?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-036,What is Certificate of Conformity Scheme IV?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-037,What fee concessions are available for MSMEs and startups in certification?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-038,How long does it take to grant a BIS license under simplified procedure?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-039,Can an overseas manufacturer export goods to India with ISI mark?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-040,What is the Manakonline portal and how do I register my factory?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-041,What is Management Systems Certification Scheme MSCS?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-042,Explain the step by step certification procedure for new manufacturers.,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-043,What documents are required to apply for Scheme 1 ISI certification?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-044,What is the certification procedure for startups on Manakonline?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-045,How do I renew my BIS certification licence?,CERTIFICATION,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-046,What is HUID in gold jewellery?,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-047,How do I check if my gold jewellery is genuinely hallmarked?,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-048,What are the three mandatory marks in gold hallmarking?,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-049,Is hallmarking mandatory for all districts in India?,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-050,What is the difference between 22K916 and 18K750 gold hallmarking?,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-051,How do jewellers get registered for gold hallmarking?,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-052,Can consumers get their un-hallmarked gold tested at an AHC centre?,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-053,Explain silver hallmarking standards and purity grades.,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-054,What is an Assaying and Hallmarking Centre (AHC)?,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-055,How to verify the 6 digit alphanumeric HUID code?,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-056,Tell me about gold hallmarking rules and purity signs.,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-057,What does 916 mark mean on a gold chain?,HALLMARKING,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-058,Where is the BIS Central Laboratory located and what does it test?,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-059,Which testing laboratories are approved for lithium battery CRS testing?,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-060,Find laboratories in Chennai for testing helmets and cement.,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-061,Where can I get packaged drinking water samples tested?,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-062,List the BIS regional laboratories across India.,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-063,Is National Test House NTH recognized by BIS for steel testing?,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-064,What tests are performed at the Electronics Regional Test Laboratory ERTL?,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-065,How can an outside laboratory apply for BIS recognition?,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-066,Where is the BIS Southern Regional Office Laboratory located?,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-067,Recommend testing lab for packaged drinking water in Ghaziabad.,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-068,Where are the government approved testing laboratories for electronics?,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-069,Which lab tests two wheeler motorcycle helmets in Tamil Nadu?,LABORATORY,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-070,How can a consumer file a complaint against fake ISI marked products?,CONSUMER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-071,How do I verify a CML licence number on the BIS CARE app?,CONSUMER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-072,What actions does BIS take against counterfeit goods and fake marks?,CONSUMER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-073,Can consumers verify product authenticity on mobile phones?,CONSUMER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-074,What should I do if a store is selling substandard non-ISI helmets?,CONSUMER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-075,How does the BIS CARE mobile app protect consumers?,CONSUMER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-076,Where can consumers report misuse of the BIS standard mark?,CONSUMER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-077,How to lodge a consumer grievance regarding fake BIS certification?,CONSUMER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-078,Can I report a shopkeeper selling duplicate ISI cement?,CONSUMER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-079,How to track status of consumer complaints filed on BIS CARE?,CONSUMER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-080,What is the Bureau of Indian Standards and what is its role?,GENERAL_BIS,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-081,What are Quality Control Orders (QCO) issued by the government?,GENERAL_BIS,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-082,What is the 'Know Your Standards' initiative?,GENERAL_BIS,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-083,Can students and educational institutions access Indian Standards for free?,GENERAL_BIS,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-084,What are BIS Standards Clubs in schools and colleges?,GENERAL_BIS,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-085,How many Indian Standards has BIS published so far?,GENERAL_BIS,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-086,What is the BIS Act 2016?,GENERAL_BIS,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-087,Explain the general functions and powers of BIS.,GENERAL_BIS,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-088,What is the purpose of mandatory Quality Control Orders QCO?,GENERAL_BIS,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-089,How does BIS promote standardization among students?,GENERAL_BIS,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-090,"Hello, good morning! Who are you?",OTHER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-091,What is the weather in New Delhi today?,OTHER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-092,Tell me a joke about engineers.,OTHER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-093,Who won the cricket match yesterday?,OTHER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-094,Help me write a Python script for web scraping.,OTHER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-095,Can you book a flight ticket for me to Mumbai?,OTHER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-096,What is the recipe for chocolate cake?,OTHER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-097,Tell me a story about space exploration.,OTHER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-098,Who is the prime minister of the country?,OTHER,BIS Domain,IS Standard Reference,en,SAMPLE DATA
+TRAIN-099,पानी की बोतल के लिए कौन सा भारतीय मानक लागू होता है?,STANDARD_RECOMMENDATION,Multilingual BIS,IS Standard Reference,hi,SAMPLE DATA
+TRAIN-100,हेलमेट के लिए कौन सा भारतीय मानक है?,STANDARD_RECOMMENDATION,Multilingual BIS,IS Standard Reference,hi,SAMPLE DATA
+TRAIN-101,सोने के आभूषणों के लिए हॉलमार्किंग नियम क्या हैं?,HALLMARKING,Multilingual BIS,IS Standard Reference,hi,SAMPLE DATA
+TRAIN-102,नकली आईएसआई मार्क के खिलाफ शिकायत कैसे दर्ज करें?,CONSUMER,Multilingual BIS,IS Standard Reference,hi,SAMPLE DATA
+TRAIN-103,बीआईएस केंद्रीय प्रयोगशाला कहाँ स्थित है?,LABORATORY,Multilingual BIS,IS Standard Reference,hi,SAMPLE DATA
+TRAIN-104,आईएसआई लाइसेंस के लिए आवेदन कैसे करें?,CERTIFICATION,Multilingual BIS,IS Standard Reference,hi,SAMPLE DATA
+TRAIN-105,தங்க நகைகளுக்கான ஹால்மார்க் விதிகள் என்ன?,HALLMARKING,Multilingual BIS,IS Standard Reference,ta,SAMPLE DATA
+TRAIN-106,ஹெல்மெட்டுக்கான இந்திய தரம் என்ன?,STANDARD_RECOMMENDATION,Multilingual BIS,IS Standard Reference,ta,SAMPLE DATA
+TRAIN-107,போலி ஐஎஸ்ஐ முத்திரைக்கு எதிராக புகார் செய்வது எப்படி?,CONSUMER,Multilingual BIS,IS Standard Reference,ta,SAMPLE DATA
+TRAIN-108,குடிநீர் பாட்டில்களுக்கான தரநிலை என்ன?,STANDARD_RECOMMENDATION,Multilingual BIS,IS Standard Reference,ta,SAMPLE DATA
+INT-0109,Which BIS standard applies to rooftop grid-connected solar inverters?,STANDARD_RECOMMENDATION,Solar Energy,IS 16221,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0110,Solar panel manufacturing ke liye kaunsa Indian standard follow karna hoga?,STANDARD_RECOMMENDATION,Solar Photovoltaics,IS 14286,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0111,Air conditioner split AC manufacturing standard enna?,STANDARD_RECOMMENDATION,HVAC,IS 1391,ta,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0112,What is the mandatory standard for industrial steel toe safety footwear?,STANDARD_RECOMMENDATION,Safety Footwear,IS 15298,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0113,Safety shoes ke liye kaunsa BIS specification hai?,STANDARD_RECOMMENDATION,Footwear,IS 15298,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0114,What Indian standard governs residential PVC insulated copper cables 1100V?,STANDARD_RECOMMENDATION,Wires & Cables,IS 694,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0115,House wiring copper wire ke liye ISI standard batao,STANDARD_RECOMMENDATION,Wires & Cables,IS 694,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0116,Which standard applies to residual current circuit breakers RCCB?,STANDARD_RECOMMENDATION,Switchgear,IS 12640,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0117,Underground potable water supply HDPE pipes standard specification,STANDARD_RECOMMENDATION,Piping,IS 4984,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0118,What standard should be used for domestic aluminium and steel pressure cookers?,STANDARD_RECOMMENDATION,Utensils,IS 2347,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0119,Pressure cooker bananeka mandatory standard kya hai?,STANDARD_RECOMMENDATION,Cookware,IS 2347,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0120,Which standard specifies low carbon welded steel LPG cooking gas cylinders?,STANDARD_RECOMMENDATION,Pressure Vessels,IS 3196,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0121,Self-ballasted B22 LED bulb standard and energy performance,STANDARD_RECOMMENDATION,Lighting,IS 16102,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0122,LED bulb standard enna details sollu,STANDARD_RECOMMENDATION,Lighting,IS 16102,ta,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0123,Bluetooth wireless earbuds and earphones CRS registration standard,STANDARD_RECOMMENDATION,Electronics,IS 616,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0124,What are the acoustic safety and sound pressure test requirements in IS 616?,STANDARD_INFORMATION,Electronics,IS 616,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0125,Explain the damp heat and thermal cycling tests in IS 14286 solar standard,STANDARD_INFORMATION,Solar Photovoltaics,IS 14286,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0126,What does IS 694 specify regarding spark test and conductor resistance?,STANDARD_INFORMATION,Wires & Cables,IS 694,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0127,Explain Clause 8 operating pressure test in IS 2347 for pressure cookers,STANDARD_INFORMATION,Cookware,IS 2347,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0128,IS 2347 pressure test requirements kya hai?,STANDARD_INFORMATION,Cookware,IS 2347,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0129,What are the bursting pressure requirements under IS 3196 LPG cylinders?,STANDARD_INFORMATION,Gas Cylinders,IS 3196,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0130,Tell me about IS 12640 residual current tripping limits and verification,STANDARD_INFORMATION,Switchgear,IS 12640,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0131,What are the tensile strength requirements for toecaps under IS 15298 Part 2?,STANDARD_INFORMATION,Safety Footwear,IS 15298,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0132,Explain lumen maintenance and endurance tests in IS 16102 LED standard,STANDARD_INFORMATION,Lighting,IS 16102,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0133,IS 4151 helmet drop impact test protocol details,STANDARD_INFORMATION,Automotive Safety,IS 4151,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0134,IS 14543 pesticide residue and coliform limits table,STANDARD_INFORMATION,Drinking Water,IS 14543,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0135,IS 1786 steel rebar yield stress 500D grade specifications,STANDARD_INFORMATION,Steel,IS 1786,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0136,What is the simplified procedure for grant of licence under Scheme I?,CERTIFICATION,Certification Schemes,Scheme I,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0137,BIS licence lene ka simplified procedure kya hai?,CERTIFICATION,Certification Schemes,Scheme I,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0138,What documents are required to register electronics products under Scheme II CRS?,CERTIFICATION,CRS Scheme II,Scheme II,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0139,How can foreign manufacturers apply for FMCS licence to export to India?,CERTIFICATION,FMCS,FMCS,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0140,Foreign factory inspection audit requirements under FMCS,CERTIFICATION,FMCS,FMCS,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0141,What is the annual minimum marking fee concession for micro enterprises?,CERTIFICATION,MSME Concessions,BIS Regulations,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0142,MSME manufacturers ku BIS certification fee concession irukka?,CERTIFICATION,MSME,BIS Regulations,ta,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0143,How to renew an expired BIS ISI licence on Manakonline?,CERTIFICATION,Licence Renewal,Manakonline,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0144,What is Scheme IV Certificate of Conformity for batches?,CERTIFICATION,Scheme IV,Scheme IV,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0145,Factory layout and testing equipment checklist for Scheme I audit,CERTIFICATION,Factory Audit,Scheme I,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0146,Can a trader or distributor apply for ISI licence without a factory?,CERTIFICATION,Licence Eligibility,Scheme I,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0147,Can a jeweller sell 22K gold jewellery without a laser HUID mark?,HALLMARKING,Gold Hallmarking,IS 1417,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0148,Bina HUID ke gold jewellery bechna legal hai kya?,HALLMARKING,Gold Hallmarking,IS 1417,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0149,What does 18K750 mean on diamond studded gold bangles?,HALLMARKING,Gold Hallmarking,IS 1417,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0150,Gold hallmark 916 means enna puriyala explain panna mudiyuma?,HALLMARKING,Gold Hallmarking,IS 1417,ta,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0151,How do Assaying and Hallmarking Centres test gold purity using fire assay?,HALLMARKING,Assaying,IS 1418,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0152,What is the registration process for retail jewellers under the hallmarking scheme?,HALLMARKING,Jeweller Registration,Hallmarking,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0153,Can a consumer get old gold jewellery hallmarked at an AHC centre?,HALLMARKING,Consumer Hallmarking,IS 1417,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0154,How to verify 6-digit HUID code using the BIS CARE mobile application?,HALLMARKING,HUID Verification,BIS CARE,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0155,Silver jewellery hallmarking purity symbols and fineness grades,HALLMARKING,Silver Hallmarking,IS 2112,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0156,Velli kolusu silver hallmark symbols enna?,HALLMARKING,Silver Hallmarking,IS 2112,ta,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0157,Where is the Southern Regional Office Laboratory SROL located in Chennai?,LABORATORY,Regional Labs,BIS Directory,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0158,Chennai la helmet test panra approved BIS laboratory enga irukku?,LABORATORY,Testing Lab,BIS Directory,ta,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0159,Which testing laboratories in Mumbai are recognized for cement testing?,LABORATORY,Testing Lab,IS 269,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0160,Mumbai testing lab for chemical analysis of steel rebars,LABORATORY,Testing Lab,IS 1786,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0161,How can a commercial laboratory apply for BIS Laboratory Recognition Scheme LRS?,LABORATORY,LRS Scheme,LRS Guidelines,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0162,NABL accreditation ISO 17025 requirement for BIS testing laboratories,LABORATORY,Accreditation,ISO/IEC 17025,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0163,Where can I get domestic water samples tested for pesticide residue in Ghaziabad?,LABORATORY,Testing Lab,Central Laboratory,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0164,Delhi NCR me lithium battery testing lab kaunsi hai?,LABORATORY,Testing Lab,ERTL,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0165,What tests are conducted at the Western Regional Office Laboratory WROL Mumbai?,LABORATORY,Regional Labs,BIS Directory,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0166,Eastern Regional Office Laboratory Kolkata location and disciplines,LABORATORY,Regional Labs,EROL,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0167,How do I check if an ISI mark on a helmet is fake or authentic?,CONSUMER,Authenticity Verification,BIS CARE,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0168,Fake ISI mark helmet verify kaise kare?,CONSUMER,Consumer Redressal,BIS CARE,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0169,Fake ISI mark iruntha eppadi complaint panrathu?,CONSUMER,Grievance,BIS CARE,ta,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0170,What are the legal penalties under Section 29 of BIS Act 2016 for counterfeit marks?,CONSUMER,Statutory Enforcement,BIS Act 2016,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0171,How can a consumer track the status of a grievance lodged on BIS CARE?,CONSUMER,Grievance Tracking,BIS CARE,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0172,Can I get compensation if a hallmarked jewellery piece has lower purity than 22K?,CONSUMER,Consumer Rights,Hallmarking Redressal,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0173,How to verify CM/L licence number on the Manakonline consumer portal?,CONSUMER,Licence Verification,Manakonline,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0174,What steps does BIS take upon receiving a complaint of spurious cement?,CONSUMER,Enforcement Raid,BIS Enforcement,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0175,Where to report jeweller refusing to provide bill with 6 digit HUID?,CONSUMER,Hallmarking Redressal,BIS CARE,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0176,Download link and features of official BIS CARE mobile application,CONSUMER,Mobile App,BIS CARE,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0177,Under which ministry does the Bureau of Indian Standards operate?,GENERAL_BIS,BIS Overview,BIS Act 2016,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0178,What is the difference between mandatory Quality Control Orders and voluntary standards?,GENERAL_BIS,Regulatory Framework,BIS Act Section 16,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0179,QCO mandatory notification aur voluntary standard me kya antar hai?,GENERAL_BIS,Regulatory Framework,BIS Act 2016,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0180,How can university students view Indian Standards free of cost?,GENERAL_BIS,Know Your Standards,Portal Access,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0181,What is the role of technical standardization committees in formulating IS codes?,GENERAL_BIS,Standardization,Divisional Councils,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0182,What are the powers of BIS inspecting officers during factory surveillance?,GENERAL_BIS,Surveillance Powers,BIS Act 2016,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0183,How does BIS coordinate with international bodies like ISO and IEC?,GENERAL_BIS,International Harmonization,ISO/IEC Directives,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0184,What are Standards Clubs established in educational institutions?,GENERAL_BIS,Youth Outreach,Standards Clubs,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0185,What is the historical background of ISI becoming Bureau of Indian Standards?,GENERAL_BIS,BIS History,BIS Act,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0186,BIS statutory functions and national standard body overview,GENERAL_BIS,Statutory Mandate,Section 3 BIS Act,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0187,Can you book a train ticket from Chennai to Bangalore for tomorrow?,OTHER,Travel Booking,N/A,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0188,What are the latest cricket scores between India and Australia?,OTHER,Sports,N/A,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0189,Write a short poem about sunrise over the mountains,OTHER,Creative Writing,N/A,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0190,Ek accha chocolate cake recipe bata sakte ho?,OTHER,Cooking,N/A,hi,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0191,How do airplanes fly in the sky without falling?,OTHER,Physics / Aviation,N/A,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0192,What is the capital city of France?,OTHER,Geography,N/A,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0193,Who directed the movie Inception in 2010?,OTHER,Entertainment,N/A,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0194,Help me write a Python script for sorting a dictionary by values,OTHER,Software Engineering,N/A,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0195,What is the distance between the Earth and the Moon in kilometers?,OTHER,Astronomy,N/A,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0196,Innaiku Chennai weather forecast enna sollunga,OTHER,Weather,N/A,ta,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE
+INT-0197,Recommend some good tourist places to visit in Kerala during monsoon,OTHER,Tourism,N/A,en,SAMPLE DATA - VERIFY AGAINST OFFICIAL BIS GAZETTE

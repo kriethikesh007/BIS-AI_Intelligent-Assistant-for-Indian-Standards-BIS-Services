@@ -1,0 +1,74 @@
+[
+  {
+    "id": "BIS-SCH-01",
+    "scheme_name": "Scheme I - Product Certification Scheme (ISI Mark)",
+    "description": "Scheme I is the flagship product certification scheme of BIS that allows manufacturers to use the prestigious ISI Mark. It operates under the BIS (Conformity Assessment) Regulations, 2018. It requires an in-house factory testing laboratory, implementation of a defined Scheme of Testing and Inspection (STI), and independent factory audit by BIS officers followed by sample verification in BIS/recognized labs.",
+    "applicable_to": "Domestic manufacturers producing products under mandatory QCOs or voluntary standards (e.g., helmets, packaged drinking water, cement, steel bars, electrical cables, switches).",
+    "procedure": "1. Online submission of application on Manakonline portal with complete factory details, machinery, testing equipment, and test personnel.\n2. Payment of application fee and pre-visit documentation check.\n3. Preliminary factory inspection by BIS auditor to verify manufacturing capability and testing facilities.\n4. Drawing of factory samples and testing in BIS or BIS-recognized laboratory.\n5. Grant of Licence upon successful verification.\n6. Periodic surveillance audits and market surveillance draws.",
+    "concessions_msme_startups": "20% rebate on application fee and annual minimum marking fee for Micro, Small and Medium Enterprises (MSMEs) and recognized Startups, plus 10% rebate for women entrepreneurs.",
+    "source_url": "https://www.bis.gov.in/product-certification/overview/",
+    "source_document": "BIS (Conformity Assessment) Regulations, 2018, Schedule II, Scheme-I",
+    "reference_clause": "Regulation 3 & Schedule II (Scheme I Requirements)",
+    "last_updated": "2024-02-01"
+  },
+  {
+    "id": "BIS-SCH-02",
+    "scheme_name": "Scheme II - Compulsory Registration Scheme (CRS)",
+    "description": "Scheme II is a self-declaration of conformity based registration scheme primarily formulated for electronic and IT goods under orders issued by the Ministry of Electronics and Information Technology (MeitY) and Ministry of New and Renewable Energy (MNRE). Instead of routine factory audits before grant, certification is issued based on test reports from BIS-recognized labs.",
+    "applicable_to": "Laptops, mobile phones, servers, power banks, LED lights, solar PV modules, smart watches, barcode scanners, Bluetooth speakers, and 60+ notified electronic categories.",
+    "procedure": "1. Manufacturer submits product samples to an accredited BIS-recognized laboratory in India for testing against relevant Indian Standards.\n2. Obtain formal test report.\n3. Register on the CRS portal (crsbis.in) and submit application with test report, undertaking, and authorized Indian representative (AIR) details if foreign.\n4. BIS reviews and grants Registration number (R-XXXXXXXX).\n5. Manufacturer applies standard logo with registration number on the product and packaging.\n6. Renewal every 2 to 5 years.",
+    "concessions_msme_startups": "Fast-track online processing without prior physical factory visit; standard portal fee structures apply.",
+    "source_url": "https://www.crsbis.in/BIS/about-crs.do",
+    "source_document": "Electronics and Information Technology Goods (Requirements for Compulsory Registration) Order & BIS (Conformity Assessment) Regulations 2018, Scheme II",
+    "reference_clause": "Schedule II, Scheme-II (Registration based on Self Declaration of Conformity)",
+    "last_updated": "2024-01-25"
+  },
+  {
+    "id": "BIS-SCH-03",
+    "scheme_name": "Scheme IV - Certificate of Conformity (CoC)",
+    "description": "Scheme IV is designed for products or batches requiring validation without regular mass factory continuous licensing, or for specialized lots, imports, or one-time procurement validations.",
+    "applicable_to": "Specific manufactured lots, electrical accessories, sanitary fittings, and pre-fabricated units where continuous factory production marking is not sought.",
+    "procedure": "1. Submission of application with batch details and sampling plan.\n2. Drawing of samples from the specified consignment/lot.\n3. Laboratory testing against applicable Indian Standard clauses.\n4. Issuance of Certificate of Conformity for the specific batch upon compliance.",
+    "concessions_msme_startups": "Economical for small-batch custom producers who do not maintain permanent large factory testing infrastructure.",
+    "source_url": "https://www.bis.gov.in/product-certification/certificate-of-conformity/",
+    "source_document": "BIS (Conformity Assessment) Regulations, 2018, Scheme IV",
+    "reference_clause": "Schedule II, Scheme IV",
+    "last_updated": "2023-12-10"
+  },
+  {
+    "id": "BIS-SCH-04",
+    "scheme_name": "FMCS - Foreign Manufacturers Certification Scheme",
+    "description": "FMCS grants ISI mark licences to foreign manufacturers intending to export goods to India that fall under mandatory or voluntary Indian Standards.",
+    "applicable_to": "Overseas manufacturing units outside India producing goods destined for the Indian market.",
+    "procedure": "1. Foreign manufacturer appoints an Authorized Indian Representative (AIR).\n2. Submits application along with factory layout, quality manual, and requisite USD fees.\n3. BIS technical auditor visits overseas factory to inspect quality control, testing lab, and draw samples.\n4. Samples tested in Indian independent labs.\n5. Bank guarantee submission and grant of licence.",
+    "concessions_msme_startups": "Standard international conformity guidelines apply.",
+    "source_url": "https://www.bis.gov.in/product-certification/foreign-manufacturers-certification-scheme-fmcs/",
+    "source_document": "BIS FMCS Operating Manual",
+    "reference_clause": "Guidelines for Grant of Licence under FMCS",
+    "last_updated": "2024-02-15"
+  },
+  {
+    "id": "BIS-SCH-05",
+    "scheme_name": "Hallmarking Scheme for Precious Metals",
+    "description": "The Hallmarking Scheme governs the testing and mandatory identification of purity of gold and silver jewellery and artefacts to safeguard consumers from adulteration and illicit under-caratage.",
+    "applicable_to": "Gold jewellery (14K, 18K, 20K, 22K, 23K, 24K) and silver articles sold by registered jewellers in India.",
+    "procedure": "1. Jeweller obtains one-time automatic online registration on Manakonline (no fee for micro enterprises below ₹40L turnover).\n2. Jeweller sends manufactured jewellery lots to a BIS-recognized Assaying and Hallmarking Centre (AHC).\n3. AHC conducts fire assay or XRF analysis for fineness verification.\n4. AHC laser-engraves the 3 mandatory hallmark signs: BIS Logo, Purity & Fineness (e.g. 22K916), and unique 6-digit alphanumeric HUID.\n5. Hallmark data uploaded to BIS central servers; consumer can verify on BIS CARE app.",
+    "concessions_msme_startups": "Free one-time lifetime registration for jewellers with turnover under ₹40 lakh per annum; zero annual renewal fees.",
+    "source_url": "https://www.bis.gov.in/hallmarking-overview/",
+    "source_document": "Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020 & BIS Act 2016",
+    "reference_clause": "Section 14 & 15 of BIS Act 2016; IS 1417 & IS 15820",
+    "last_updated": "2024-03-01"
+  },
+  {
+    "id": "BIS-SCH-06",
+    "scheme_name": "Management Systems Certification Scheme (MSCS)",
+    "description": "Certification of management systems in organizations across Quality (ISO 9001 / IS/ISO 9001), Environment (ISO 14001 / IS/ISO 14001), Occupational Health and Safety (ISO 45001 / IS/ISO 45001), and Food Safety (ISO 22000 / IS/ISO 22000).",
+    "applicable_to": "Corporates, MSMEs, manufacturing units, hospitals, and service industry enterprises seeking accredited system certification.",
+    "procedure": "1. Application submission with quality manual and scope definition.\n2. Stage 1 adequacy audit of documentation.\n3. Stage 2 comprehensive on-site certification audit.\n4. Corrective actions closure.\n5. Issuance of 3-year certificate with annual surveillance audits.",
+    "concessions_msme_startups": "Special fee structure for small and micro service units.",
+    "source_url": "https://www.bis.gov.in/management-system-certification/overview/",
+    "source_document": "BIS (Conformity Assessment) Regulations 2018, Schedule I",
+    "reference_clause": "Schedule I, System Certification Provisions",
+    "last_updated": "2023-11-05"
+  }
+]

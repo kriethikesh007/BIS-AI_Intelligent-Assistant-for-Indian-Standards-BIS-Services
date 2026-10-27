@@ -1,0 +1,298 @@
+{
+  "evaluation_timestamp": "2026-10-27T09:30:34Z",
+  "machine_learning_metrics": {
+    "accuracy": 0.9442,
+    "precision_weighted": 0.947,
+    "precision_macro": 0.9413,
+    "recall_weighted": 0.9442,
+    "recall_macro": 0.9397,
+    "f1_weighted": 0.9445,
+    "f1_macro": 0.9394,
+    "confusion_matrix": [
+      [
+        23,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        21,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        18,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        22,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        23,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        18,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        36
+      ]
+    ],
+    "classes": [
+      "CERTIFICATION",
+      "CONSUMER",
+      "GENERAL_BIS",
+      "HALLMARKING",
+      "LABORATORY",
+      "OTHER",
+      "STANDARD_INFORMATION",
+      "STANDARD_RECOMMENDATION"
+    ],
+    "classification_report": {
+      "CERTIFICATION": {
+        "precision": 1.0,
+        "recall": 0.8846153846153846,
+        "f1-score": 0.9387755102040817,
+        "support": 26.0
+      },
+      "CONSUMER": {
+        "precision": 0.9130434782608695,
+        "recall": 0.9545454545454546,
+        "f1-score": 0.9333333333333333,
+        "support": 22.0
+      },
+      "GENERAL_BIS": {
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1-score": 0.9,
+        "support": 20.0
+      },
+      "HALLMARKING": {
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9565217391304348,
+        "support": 24.0
+      },
+      "LABORATORY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 23.0
+      },
+      "OTHER": {
+        "precision": 0.8181818181818182,
+        "recall": 0.9,
+        "f1-score": 0.8571428571428571,
+        "support": 20.0
+      },
+      "STANDARD_INFORMATION": {
+        "precision": 0.9259259259259259,
+        "recall": 0.9615384615384616,
+        "f1-score": 0.9433962264150944,
+        "support": 26.0
+      },
+      "STANDARD_RECOMMENDATION": {
+        "precision": 0.972972972972973,
+        "recall": 1.0,
+        "f1-score": 0.9863013698630136,
+        "support": 36.0
+      },
+      "accuracy": 0.9441624365482234,
+      "macro avg": {
+        "precision": 0.9412655244176984,
+        "recall": 0.9396707459207458,
+        "f1-score": 0.9394338795111019,
+        "support": 197.0
+      },
+      "weighted avg": {
+        "precision": 0.9469629136369371,
+        "recall": 0.9441624365482234,
+        "f1-score": 0.9445483587943552,
+        "support": 197.0
+      }
+    },
+    "total_test_samples": 197,
+    "prediction_time_per_sample_ms": 0.179
+  },
+  "information_retrieval_metrics": {
+    "total_benchmark_queries": 14,
+    "top_1_accuracy": 1.0,
+    "top_5_accuracy": 1.0,
+    "mrr": 1.0,
+    "precision_at_1": 1.0,
+    "precision_at_3": 0.3333,
+    "precision_at_5": 0.2,
+    "normalized_precision_at_3": 1.0,
+    "normalized_precision_at_5": 1.0,
+    "recall_at_1": 1.0,
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "mean_retrieval_time_ms": 5.69,
+    "p95_retrieval_time_ms": 10.21
+  },
+  "system_performance_metrics": {
+    "model_prediction_time_ms": {
+      "mean": 3.79,
+      "median": 0.24,
+      "p95": 16.92,
+      "min": 0.13,
+      "max": 20.05
+    },
+    "retrieval_time_ms": {
+      "mean": 4.33,
+      "median": 4.31,
+      "p95": 5.97,
+      "min": 2.98,
+      "max": 6.66
+    },
+    "api_response_time_ms": {
+      "mean": 893.13,
+      "median": 10.98,
+      "p95": 4037.6,
+      "min": 4.46,
+      "max": 6167.91,
+      "chat_endpoint_mean": 2410.17,
+      "recommend_endpoint_mean": 10.4,
+      "catalog_endpoint_mean": 5.09
+    }
+  },
+  "scenario_tests": [
+    {
+      "test_number": 1,
+      "name": "Intent Classification",
+      "status": "PASSED",
+      "details": "Predicted: STANDARD_RECOMMENDATION (confidence: 0.9)"
+    },
+    {
+      "test_number": 2,
+      "name": "Standard Recommendation",
+      "status": "PASSED",
+      "details": "Top: IS 10322 (Part 5/Sec 8):2013 (Score: 1.00)"
+    },
+    {
+      "test_number": 3,
+      "name": "Certification Retrieval",
+      "status": "PASSED",
+      "details": "Retrieved 6 certification schemes successfully"
+    },
+    {
+      "test_number": 4,
+      "name": "Hallmarking Queries",
+      "status": "PASSED",
+      "details": "Verified 3 mandatory marks & HUID rules (1 FAQs)"
+    },
+    {
+      "test_number": 5,
+      "name": "Laboratory Queries",
+      "status": "PASSED",
+      "details": "Retrieved Central Lab with NABL accreditation and testing disciplines"
+    },
+    {
+      "test_number": 6,
+      "name": "Consumer Queries",
+      "status": "PASSED",
+      "details": "Verified BIS CARE mobile app and CML verification tools"
+    },
+    {
+      "test_number": 7,
+      "name": "Unknown Queries (Guardrail Fallback)",
+      "status": "PASSED",
+      "details": "Strict fallback message correctly triggered without hallucination"
+    },
+    {
+      "test_number": 8,
+      "name": "Multilingual Queries",
+      "status": "PASSED",
+      "details": "Validated English, Hindi, Tamil, entity preservation and unsupported fallback"
+    },
+    {
+      "test_number": 9,
+      "name": "Empty Queries",
+      "status": "PASSED",
+      "details": "Handled empty query gracefully without server crash (Status 400)"
+    },
+    {
+      "test_number": 10,
+      "name": "Invalid Input",
+      "status": "PASSED",
+      "details": "Rejected malformed JSON input with HTTP 400 Bad Request"
+    },
+    {
+      "test_number": 11,
+      "name": "Database Failure Resilience",
+      "status": "PASSED",
+      "details": "In-memory / JSON fallback successfully served 25 records when MongoDB is offline"
+    },
+    {
+      "test_number": 12,
+      "name": "Missing Knowledge Source",
+      "status": "PASSED",
+      "details": "Returned 404 Not Found for non-cataloged standard identifier"
+    },
+    {
+      "test_number": 13,
+      "name": "Low-Confidence Prediction",
+      "status": "PASSED",
+      "details": "Under-threshold query blocked with strict fallback and 0% confidence score"
+    },
+    {
+      "test_number": 14,
+      "name": "API Errors",
+      "status": "PASSED",
+      "details": "Structured error payloads verified: 404 Not Found and 401 Unauthorized"
+    }
+  ],
+  "all_tests_passed": true
+}
